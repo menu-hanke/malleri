@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Mallifunktiopaketti 1",
+        "description": "Paketti sisältää yleisiä malleja",
+        "developers": [
+            "Rouva X",
+            "John Doe"
+        ],
+        "authors": [
+            "Rouva X",
+            "Herra Y"
+        ],
+        "active": true
+    },
+    {
+        "title": "Mallifunktiopaketti 2",
+        "description": "Paketti sisältää vielä yleisempiä malleja",
+        "developers": [
+            "Rouva Z",
+            "Jane Doe"
+        ],
+        "authors": [
+            "Rouva Z",
+            "Herra W"
+        ],
+        "active": true
+    }
+]

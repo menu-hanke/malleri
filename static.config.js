@@ -1,5 +1,6 @@
 import axios from 'axios'
 import path from 'path'
+import packages from './public/mfk-presentation-level-collection.json'
 // import { Post } from './types'
 
 // Typescript support in static.config.js is not yet supported, but is coming in a future update!
@@ -24,6 +25,10 @@ export default {
           }),
         })),
       },
+      {
+        path: '/library',
+        getData: () => ({packages})
+      }
     ]
   },
   plugins: [
