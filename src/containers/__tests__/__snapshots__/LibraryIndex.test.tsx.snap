@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot should match 1`] = `
+<div>
+  <ul>
+    <li>
+      Mallifunktiopaketti 1
+    </li>
+    <li>
+      Mallifunktiopaketti 2
+    </li>
+  </ul>
+</div>
+`;
