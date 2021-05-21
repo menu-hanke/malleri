@@ -22,7 +22,8 @@
       "types/*": ["types/*"]
     },
     "lib": ["dom", "es2015", "es2016"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "exclude": ["artifacts/**/*", "dist/**/*", "public/**/*", "node_modules"]
 }
