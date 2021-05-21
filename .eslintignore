@@ -4,3 +4,4 @@ public
 artifacts
 tmp
 static.config.js
+jest.config.ts
