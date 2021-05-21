@@ -1,11 +1,15 @@
 import React from 'react';
 import {ModelFunctionPackage} from '../../types';
 
-export default ({packages}: {packages: ModelFunctionPackage[]}) => {
+export interface Props {
+  packages: ModelFunctionPackage[]
+}
+
+export default (props: Props) => {
   return (
     <div>
       <ul>
-        {packages.map((item: ModelFunctionPackage, i: number) => (
+        {props.packages.map((item: ModelFunctionPackage, i: number) => (
           <li key={i}>{item.title}</li>
         ))}
       </ul>
