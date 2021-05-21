@@ -48,6 +48,23 @@ Using TypeScript and maintaining proper type annotations is not optional in this
 * Automatic linting should be the standard.
 * Failed linting will fail project build.
 
+#### Tools
+
+`npm run lint` to do full lint checkup for project
+`npm run prettyfy` to do possible automatic fixes to linting
+
+#### VS Code
+
+To enable automatic lint upon save, set following in your `.vscode/settings.json`
+
+```
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"]
+}
+```
 
 ### Semantic commit messages
 
