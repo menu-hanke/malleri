@@ -4,11 +4,11 @@ Created with react-static generator version 3.5.7, using typescript template. Th
 
 ## Getting started
 
-You need local Node.js to run or build the project. Choose either direct Node.js installation or use nvm, which allows managing multiple Node.js version. We default to Node.js version 14 in this project. npm command should come bundled with the Node.js installation.
+You need local Node.js to run or build the project. Choose either direct Node.js installation or use nvm, which allows managing multiple Node.js version. We default to Node.js version 14 in this project. `npm` command should come bundled with the Node.js installation.
 
-* nvm-windows from https://github.com/coreybutler/nvm-windows. Note that this program requires administrator privileges to install and further when installing Node.js. Take care to install the program into a location accessible by your normal user.
-* nvm for Linux/Macintosh from https://github.com/nvm-sh/nvm
-* Bare Node.js for any platform from https://nodejs.org/en/download/
+* `nvm-windows` from https://github.com/coreybutler/nvm-windows. Note that this program requires administrator privileges to install and further when installing Node.js. Take care to install the program into a location accessible by your normal user.
+* `nvm` for Linux/Macintosh from https://github.com/nvm-sh/nvm
+* `Node.js` for any platform from https://nodejs.org/en/download/
 
 ### Usage
 
@@ -25,7 +25,7 @@ Call `npm run build` to generate the production release into the `dist` director
 |static.config.js|React Static entry point. Defines data sources in the static build for specific routes.|
 |index.tsx|Technical entry point wrapping the React App|
 |App.tsx|Actual React App entry point|
-|src/pages|Web page modules X.tsx - accessible as <host>/X - where X is the URL path endpoint|
+|src/pages|Web page modules X.tsx - accessible as `http://<hostname>/X`|
 |src/containers|React components supposed to be used as technical view wrappers (plumbing for state management)|
 |src/components|Pure React view components|
 |public|Directory with contents to be published as-is to host root directory|
