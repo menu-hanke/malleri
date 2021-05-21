@@ -22,6 +22,7 @@
     ],
     "rules": {
         "comma-dangle": "off",
+        "no-console": "error",
         "padded-blocks": "off",
         "require-jsdoc": "off",
         "react/display-name": "off",
