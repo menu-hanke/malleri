@@ -30,3 +30,37 @@ Call `npm run build` to generate the production release into the `dist` director
 |src/components|Pure React view components|
 |public|Directory with contents to be published as-is to host root directory|
 |types|TypeScript type definitions|
+
+## Project practices
+
+### Language
+
+Using TypeScript and maintaining proper type annotations is not optional in this project.
+
+### Testing
+
+* All functionality should be developed as unit tested with Jest suites.
+* View components shall be snapshot tested.
+* Test failures will fail project build.
+
+### Code formatting
+
+* Automatic linting should be the standard.
+* Failed linting will fail project build.
+
+
+### Semantic commit messages
+
+We use semantic commits as guideline in how to organize our commits. This allows us to keep a tidy and readable commit history with to-the-point commits and clear intent. This is adapted from https://sparkbox.com/foundry/semantic_commit_messages.
+
+Commit messages are prefixed with a category having a certain intent, such as `feat: add cancel button to main submit form` or `fix: address rounding error in sums with numerically inaccurate sources`. The following table explains the format and intent.
+
+|Prefix|Intent|
+|------|------|
+|feat|Actual feature addition or change. The commit which actuates a planned change, removal or improvement. Should contain necessary related changes to test suites. Should coincide with the topic of a Jira task or related issue.|
+|fix|A change which addresses a faulty implementation, or bug. Should contain necessary related changes to test suites.|
+|ref|A refactoring commit which does not change the functionality of whatever it touches. Should be a change that is theoretically free or regression risk and passes unit tests just as before. Refactorings required for a feature or a fix should be made in a preceding commit. Split your work so that `feat` and `fix` commits come separately for the changing functionality changes.|
+|chore|A commit not directly related to the programming of the project. Changes to build pipelines, project configuration and other plumbing.|
+|style|Pure code formatting changes with no effect whatsoever on functionality or structure. Keep normal changes to code styled by applying automatic linting by project standards upon save or at least before creating commits.|
+|test|All changes purely involving test suites, when not related to a `feat`, `fix` or `ref`.|
+|doc|Commit contains only documentation changes.|
