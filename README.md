@@ -12,4 +12,21 @@ You need local Node.js to run or build the project. Choose either direct Node.js
 
 ### Usage
 
-Call `npm run start` to launch the project in hot-reload developer mode. The site is then accessible via http://localhost:3000. Call `npm run build` to generate the production release into the `dist` directory.
+`npm install` on the first run and after dependency changes to refresh project package dependencies. 
+
+Call `npm run start` to launch the project in hot-reload developer mode. The site is then accessible via http://localhost:3000.
+
+Call `npm run build` to generate the production release into the `dist` directory. Contents of this directory can be published on a target web server to serve the app. 
+
+## Project structure
+
+|File/Dir|Purpose|
+|--------|-------|
+|static.config.js|React Static entry point. Defines data sources in the static build for specific routes.|
+|index.tsx|Technical entry point wrapping the React App|
+|App.tsx|Actual React App entry point|
+|src/pages|Web page modules X.tsx - accessible as <host>/X - where X is the URL path endpoint|
+|src/containers|React components supposed to be used as technical view wrappers (plumbing for state management)|
+|src/components|Pure React view components|
+|public|Directory with contents to be published as-is to host root directory|
+|types|TypeScript type definitions|
