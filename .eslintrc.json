@@ -22,7 +22,9 @@
     ],
     "rules": {
         "comma-dangle": "off",
-        "no-console": "error",
+        "max-len": "off",
+        "no-console": "warn",
+        "no-unused-vars": "warn",
         "padded-blocks": "off",
         "require-jsdoc": "off",
         "react/display-name": "off",
