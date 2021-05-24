@@ -62,7 +62,8 @@ export interface ModelFunction {
 }
 
 export interface ModelFunctionPackage {
-  package: string
+  title: string
+  description: string
   searchPhrases: string[]
   models: ModelFunction[]
 }

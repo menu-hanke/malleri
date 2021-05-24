@@ -1,6 +1,7 @@
 [
     {
-        "package": "MELA2016 natural process",
+        "title": "MELA2016 natural process",
+        "description": "General models for MELA2016",
         "searchPhrases": [
             "natural process",
             "height development"

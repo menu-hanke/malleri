@@ -10,7 +10,7 @@ export default (props: Props) => {
     <div>
       <ul>
         {props.packages.map((item: ModelFunctionPackage, i: number) => (
-          <li key={i}>{item.package}</li>
+          <li key={i}>{item.title}</li>
         ))}
       </ul>
     </div>
