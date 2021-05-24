@@ -4,11 +4,11 @@
             "package": "MELA2016 natural process",
             "search_phrases": [
                 "natural process",
-                "heigth development"
+                "height development"
             ]
         },
         "publication_details": {
-            "data": "2018-01-01T12:00:00.000Z",
+            "date": "2018-01-01T12:00:00.000Z",
             "modeled_by": [
                 "Hynynen",
                 "Salminen"
@@ -37,21 +37,21 @@
                 }
             ]
         },
-        "sertification_details": {
+        "certification_details": {
             "certified_by": "NN",
-            "version": 1.0,
-            "data": "2021-05-24T12:00:00.000Z",
+            "version": "1.0",
+            "date": "2021-05-24T12:00:00.000Z",
             "modified": "",
             "validation": {
                 "date": "",
-                "data": "Aineisto jota vasten validoitu",
+                "description": "Aineisto jota vasten validoitu",
                 "reliability": {
                     "cost": 1000
                 }
             },
-            "calibartion": {
+            "calibration": {
                 "date": "",
-                "data": "Aineisto jota vasten kalibroitu"
+                "description": "Aineisto jota vasten kalibroitu"
             }
         },
         "model_details": {
@@ -62,7 +62,7 @@
                 "species": [
                     "scots pine"
                 ],
-                "soilcategory": [
+                "soil_category": [
                     "mineral soil"
                 ]
             },
