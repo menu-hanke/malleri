@@ -1,32 +1,32 @@
 [
     {
-        "mfk_details": {
+        "mfkDetails": {
             "package": "MELA2016 natural process",
-            "search_phrases": [
+            "searchPhrases": [
                 "natural process",
                 "height development"
             ]
         },
-        "publication_details": {
+        "publicationDetails": {
             "date": "2018-01-01T12:00:00.000Z",
-            "modeled_by": [
+            "modeledBy": [
                 "Hynynen",
                 "Salminen"
             ],
-            "published_in": "Hynynen, J., Ojansuu, R., Hökkä, H., Siipilehto, J., Salminen, H. & Haapala, P. 2002. Models for predicting stand development in MELA System. Metsäntutkimuslaitoksen tiedonantoja 835. p. 28. (http://urn.fi/URN:ISBN:951-40-1815-X)",
+            "publishedIn": "Hynynen, J., Ojansuu, R., Hökkä, H., Siipilehto, J., Salminen, H. & Haapala, P. 2002. Models for predicting stand development in MELA System. Metsäntutkimuslaitoksen tiedonantoja 835. p. 28. (http://urn.fi/URN:ISBN:951-40-1815-X)",
             "references": [
                 "Kuusela, K. & Salminen S. 1969. The slh5lh National Forest Inventory in Finland. Communicationes Instituti Forestalls Fenniae 69(4): 1-72."
             ]
         },
-        "technical_details": {
-            "written_by": "NN",
-            "programming_language": "Fortran",
+        "technicalDetails": {
+            "writtenBy": "NN",
+            "programmingLanguage": "Fortran",
             "file": "",
             "dependencies": {
                 "internal": [],
                 "external": []
             },
-            "sibling_models": [
+            "siblingModels": [
                 {
                     "name": "hdom_mineral_spruce",
                     "description": "Height development for dominant trees on mineral soils for spruces"
@@ -37,8 +37,8 @@
                 }
             ]
         },
-        "certification_details": {
-            "certified_by": "NN",
+        "certificationDetails": {
+            "certifiedBy": "NN",
             "version": "1.0",
             "date": "2021-05-24T12:00:00.000Z",
             "modified": "",
@@ -54,15 +54,15 @@
                 "description": "Aineisto jota vasten kalibroitu"
             }
         },
-        "model_details": {
+        "modelDetails": {
             "name": "hdom_mineral_pine",
             "group": "tree",
             "description": "Heigth development for dominant trees on mineral soils",
-            "applicable_to": {
+            "applicableTo": {
                 "species": [
                     "scots pine"
                 ],
-                "soil_category": [
+                "soilCategory": [
                     "mineral soil"
                 ]
             },
@@ -91,7 +91,7 @@
                 }
             ]
         },
-        "additional_content": {
+        "additionalContent": {
             "interpreter": "käännösohjedokumentti"
         }
     }
