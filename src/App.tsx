@@ -11,7 +11,7 @@ function App() {
     <Root>
       <nav>
         <Link to="/">Etusivu</Link>
-        <Link to="/library">Model Function Library</Link>
+        <Link to="/library">Mallifunktiokirjasto</Link>
         <Link to="/simulator">Simulaattori</Link>
       </nav>
       <div className="content">
