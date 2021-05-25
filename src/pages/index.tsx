@@ -1,18 +1,14 @@
 import React from 'react';
 
 export default () => (
-  <div style={{textAlign: 'center'}}>
-    <h1>
-      Welcome to React-Static <br /> + TypeScript
+  <div>
+    <h1 style={{textAlign: 'center'}}>
+      MENU-hankkeen infoportaali
     </h1>
     <p>
-      Learn{' '}
-      <a href="https://github.com/sw-yx/react-typescript-cheatsheet">
-        React + TypeScript
-      </a>
-    </p>
-    <p>
-      <a href="https://twitter.com/swyx">Report issues with this template</a>
+      Tällä sivustolla tarjoillaan MENU-hankkeen alainen MELA 2.0 simulaattorityökalu, mallifunktiokirjasto sekä muuta hankkeeseen liittyvää tietoa.
+      Mallifunktiokirjasto on kokoelma paketteja, jotka sisältävät Lua ja R pohjaisia laskentamallifunktioita simulaattorin käyttöön.
+      Simulaattori on paikallisesti ajettava sovellus, joka hyödyntää mallifunktiokokoelmaa laskentaan.
     </p>
   </div>
 );

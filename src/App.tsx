@@ -10,7 +10,7 @@ function App() {
   return (
     <Root>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/">Etusivu</Link>
         <Link to="/about">About</Link>
         <Link to="/library">Model Function Library</Link>
       </nav>
