@@ -52,7 +52,7 @@ export default (props: Props) => {
       <input type="text" placeholder="Filter by description..." onChange={(event) => setDescriptionFilterInput(event.target.value)} />
       <ul>
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <li key={i}>{item.title}</li>
+          <li key={i} onClick={() => setItemInModal(item)}>{item.title}</li>
         ))}
       </ul>
     </div>
