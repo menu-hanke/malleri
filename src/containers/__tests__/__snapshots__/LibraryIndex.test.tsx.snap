@@ -2,12 +2,25 @@
 
 exports[`snapshot should match 1`] = `
 <div>
+  <input
+    onChange={[Function]}
+    placeholder="Filter by title..."
+    type="text"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Filter by description..."
+    type="text"
+  />
   <ul>
     <li>
-      Mallifunktiopaketti 1
+      MELA2016 natural process
     </li>
     <li>
-      Mallifunktiopaketti 2
+      MELA2017 natural process
+    </li>
+    <li>
+      MELA2018 natural process
     </li>
   </ul>
 </div>
