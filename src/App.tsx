@@ -12,6 +12,7 @@ function App() {
       <nav>
         <Link to="/">Etusivu</Link>
         <Link to="/library">Model Function Library</Link>
+        <Link to="/simulator">Simulaattori</Link>
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
