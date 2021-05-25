@@ -1,7 +1,6 @@
 import React from 'react';
 import {Root, Routes, addPrefetchExcludes} from 'react-static';
 import {Link, Router} from '@reach/router';
-import FancyDiv from 'components/FancyDiv';
 import './app.css';
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
@@ -16,13 +15,11 @@ function App() {
         <Link to="/library">Model Function Library</Link>
       </nav>
       <div className="content">
-        <FancyDiv>
-          <React.Suspense fallback={<em>Loading...</em>}>
-            <Router>
-              <Routes path="*" />
-            </Router>
-          </React.Suspense>
-        </FancyDiv>
+        <React.Suspense fallback={<em>Loading...</em>}>
+          <Router>
+            <Routes path="*" />
+          </Router>
+        </React.Suspense>
       </div>
     </Root>
   );
