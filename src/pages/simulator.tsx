@@ -6,8 +6,8 @@ export default () => (
       MELA 2.0 simulaattori
     </h1>
     <p>
-      Tältä sivulta voit ladata MELA 2.0 simulaattorin
-      Tämä on komentorivityökalu, josta tehdään julkaisuja Windows ja Linux ympäristöihin.
+      Tältä sivulta voit ladata MELA 2.0 simulaattorin.
+      Tämä on komentorivityökalu, josta on tehty julkaisuja Windows ja Linux ympäristöihin.
       Työkalu on saatavilla myös Docker käyttöön.
     </p>
 
