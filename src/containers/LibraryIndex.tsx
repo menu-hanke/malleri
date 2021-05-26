@@ -42,8 +42,8 @@ export default (props: Props) => {
         <p>
           Mallit:
           <ul>
-            {itemInModal.models.map((model) =>
-              (<li>{model.generalDetails.name}</li>))}
+            {itemInModal.models.map((model, i) =>
+              (<li key={i}>{model.generalDetails.name}</li>))}
           </ul>
         </p>
 
