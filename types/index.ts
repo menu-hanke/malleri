@@ -1,69 +1,27 @@
-export interface Post {
-  body: string
-  id: number
-  title: string
-}
-
-export interface ModelFunctionPublicationDetails {
-  date: string
-  modeledBy: string[]
-  publishedIn: string
-  references: string[]
-}
-
-export interface ModelFunctionTechnicalDetails {
-  writtenBy: string
-  programmingLanguage: string
-  file: string
-  // TODO: model this?
-  dependencies: any
-  siblingModels: any
-}
-
-export interface ModelFunctionInput {
+export interface IOParameter {
   name: string
-  varname: string
-  description: string
-  group: string
-  unit: string
-}
-
-export interface ModelFunctionOutput {
-  varname: string
-  group: string
-  unit: string
-  type: string
-}
-
-export interface ModelFunctionCertificationDetails {
-  certifiedBy: string
-  version: string
-  date: string
-  modified: string
-  validation: object
-  calibration: any
-}
-
-export interface ModelFunctionGeneralDetails {
-  name: string
-  group: string
-  description: string
-  applicableTo: any
-  output: ModelFunctionOutput[]
-  input: ModelFunctionInput[]
+  unit: string | null
 }
 
 export interface ModelFunction {
-  publicationDetails: ModelFunctionPublicationDetails
-  technicalDetails: ModelFunctionTechnicalDetails
-  certificationDetails: ModelFunctionCertificationDetails
-  generalDetails: ModelFunctionGeneralDetails
-  additionalContent: any
+  name: string
+  modelId: string
+  package: string
+  description: string
+  applicability: any
+  outputs: IOParameter[]
+  inputs: IOParameter[]
+  reference: string
+  referenceUrl: string
+  year: number
+  developers: string[]
+  language: string
+  createdDate: Date | string
+  modifiedDate: Date | string
+  remarks?: string
 }
 
 export interface ModelFunctionPackage {
-  title: string
-  description: string
-  searchPhrases: string[]
+  name: string,
   models: ModelFunction[]
 }

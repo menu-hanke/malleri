@@ -7,9 +7,7 @@ export interface Props {
 }
 
 const placeholderPackageItem = {
-  title: '',
-  description: '',
-  searchPhrases: [],
+  name: '',
   models: []
 };
 
@@ -19,11 +17,10 @@ export default (props: Props) => {
   // 3. new view for model function package
 
   const [titleFilterInput, setTitleFilterInput] = useState('');
-  const [descriptionFilterInput, setDescriptionFilterInput] = useState('');
   const [itemInModal, setItemInModal]: [ModelFunctionPackage, Function] = useState(placeholderPackageItem);
 
   const totalFilter = (item: ModelFunctionPackage) => {
-    return item.title.includes(titleFilterInput) && item.description.includes(descriptionFilterInput);
+    return item.name.includes(titleFilterInput);
   };
 
   const applyPackagesFiltering = (packages: ModelFunctionPackage[]) => {
@@ -37,22 +34,29 @@ export default (props: Props) => {
         onRequestClose={() => setItemInModal(placeholderPackageItem)}
         contentLabel="Mallifunktiopaketin sisältö"
       >
-        <b>{itemInModal.title}</b>
-        <p>{itemInModal.description}</p>
+        <b>{itemInModal.name}</b>
         <p>
           Mallit:
           <ul>
             {itemInModal.models.map((model, i) =>
-              (<li key={i}>{model.generalDetails.name}</li>))}
+              (<li key={i}>{model.name}</li>))}
           </ul>
         </p>
 
       </Modal>
-      <input type="text" placeholder="Filter by title..." onChange={(event) => setTitleFilterInput(event.target.value)} />
-      <input type="text" placeholder="Filter by description..." onChange={(event) => setDescriptionFilterInput(event.target.value)} />
+      <input
+        type="text"
+        placeholder="Filter by title..."
+        onChange={(event) => setTitleFilterInput(event.target.value)}
+      />
       <ul>
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <li key={i} onClick={() => setItemInModal(item)}>{item.title}</li>
+          <li
+            key={i}
+            onClick={() => setItemInModal(item)}
+          >
+            {item.name}
+          </li>
         ))}
       </ul>
     </div>

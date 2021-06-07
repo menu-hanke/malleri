@@ -1,299 +1,189 @@
 [
-    {
-        "title": "MELA2016 natural process",
-        "description": "General models for MELA2016",
-        "searchPhrases": [
-            "natural process",
-            "height development"
+  {
+    "name": "Natural processes",
+    "models": [
+      {
+        "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
+        "createdDate": "2021-05-21T00:00:00.000Z",
+        "description": "Predicts height growth of individual tree for the next 5 years period",
+        "developers": [
+          "NN"
         ],
-        "models": [
-            {
-                "publicationDetails": {
-                    "date": "2018-01-01T12:00:00.000Z",
-                    "modeledBy": [
-                        "Hynynen",
-                        "Salminen"
-                    ],
-                    "publishedIn": "Hynynen, J., Ojansuu, R., Hökkä, H., Siipilehto, J., Salminen, H. & Haapala, P. 2002. Models for predicting stand development in MELA System. Metsäntutkimuslaitoksen tiedonantoja 835. p. 28. (http://urn.fi/URN:ISBN:951-40-1815-X)",
-                    "references": [
-                        "Kuusela, K. & Salminen S. 1969. The slh5lh National Forest Inventory in Finland. Communicationes Instituti Forestalls Fenniae 69(4): 1-72."
-                    ]
-                },
-                "technicalDetails": {
-                    "writtenBy": "NN",
-                    "programmingLanguage": "Fortran",
-                    "file": "",
-                    "dependencies": {
-                        "internal": [],
-                        "external": []
-                    },
-                    "siblingModels": [
-                        {
-                            "name": "hdom_mineral_spruce",
-                            "description": "Height development for dominant trees on mineral soils for spruces"
-                        },
-                        {
-                            "name": "hdom_mineral_birch",
-                            "description": "Height development for dominant trees on mineral soils for birches"
-                        }
-                    ]
-                },
-                "certificationDetails": {
-                    "certifiedBy": "NN",
-                    "version": "1.0",
-                    "date": "2021-05-24T12:00:00.000Z",
-                    "modified": "",
-                    "validation": {
-                        "date": "",
-                        "description": "Aineisto jota vasten validoitu",
-                        "reliability": {
-                            "cost": 1000
-                        }
-                    },
-                    "calibration": {
-                        "date": "",
-                        "description": "Aineisto jota vasten kalibroitu"
-                    }
-                },
-                "generalDetails": {
-                    "name": "hdom_mineral_pine",
-                    "group": "tree",
-                    "description": "Heigth development for dominant trees on mineral soils",
-                    "applicableTo": {
-                        "species": [
-                            "scots pine"
-                        ],
-                        "soilCategory": [
-                            "mineral soil"
-                        ]
-                    },
-                    "output": [
-                        {
-                            "varname": "hdom",
-                            "group": "tree",
-                            "unit": "meter",
-                            "type": "double"
-                        }
-                    ],
-                    "input": [
-                        {
-                            "name": "temperature sum",
-                            "varname": "ts",
-                            "description": "total annual temperature sum with thresphold +5 C",
-                            "group": "stand",
-                            "unit": "decimal degree"
-                        },
-                        {
-                            "name": "altitude",
-                            "varname": "alt",
-                            "description": "Altitude above sea level",
-                            "group": "stand",
-                            "unit": "meter"
-                        }
-                    ]
-                },
-                "additionalContent": {
-                    "interpreter": "käännösohjedokumentti"
-                }
-            }
-        ]
-    },
-    {
-        "title": "MELA2017 natural process",
-        "description": "General models for MELA2017",
-        "searchPhrases": [
-            "natural process",
-            "height development"
+        "inputs": [
+          {
+            "name": "Tree species",
+            "unit": "???"
+          },
+          {
+            "name": "Tree height",
+            "unit": "m"
+          },
+          {
+            "name": "Site Temperature sum",
+            "unit": "°C"
+          }
         ],
-        "models": [
-            {
-                "publicationDetails": {
-                    "date": "2018-01-01T12:00:00.000Z",
-                    "modeledBy": [
-                        "Hynynen",
-                        "Salminen"
-                    ],
-                    "publishedIn": "Hynynen, J., Ojansuu, R., Hökkä, H., Siipilehto, J., Salminen, H. & Haapala, P. 2002. Models for predicting stand development in MELA System. Metsäntutkimuslaitoksen tiedonantoja 835. p. 28. (http://urn.fi/URN:ISBN:951-40-1815-X)",
-                    "references": [
-                        "Kuusela, K. & Salminen S. 1969. The slh5lh National Forest Inventory in Finland. Communicationes Instituti Forestalls Fenniae 69(4): 1-72."
-                    ]
-                },
-                "technicalDetails": {
-                    "writtenBy": "NN",
-                    "programmingLanguage": "Fortran",
-                    "file": "",
-                    "dependencies": {
-                        "internal": [],
-                        "external": []
-                    },
-                    "siblingModels": [
-                        {
-                            "name": "hdom_mineral_spruce",
-                            "description": "Height development for dominant trees on mineral soils for spruces"
-                        },
-                        {
-                            "name": "hdom_mineral_birch",
-                            "description": "Height development for dominant trees on mineral soils for birches"
-                        }
-                    ]
-                },
-                "certificationDetails": {
-                    "certifiedBy": "NN",
-                    "version": "1.0",
-                    "date": "2021-05-24T12:00:00.000Z",
-                    "modified": "",
-                    "validation": {
-                        "date": "",
-                        "description": "Aineisto jota vasten validoitu",
-                        "reliability": {
-                            "cost": 1000
-                        }
-                    },
-                    "calibration": {
-                        "date": "",
-                        "description": "Aineisto jota vasten kalibroitu"
-                    }
-                },
-                "generalDetails": {
-                    "name": "hdom_mineral_pine",
-                    "group": "tree",
-                    "description": "Heigth development for dominant trees on mineral soils",
-                    "applicableTo": {
-                        "species": [
-                            "scots pine"
-                        ],
-                        "soilCategory": [
-                            "mineral soil"
-                        ]
-                    },
-                    "output": [
-                        {
-                            "varname": "hdom",
-                            "group": "tree",
-                            "unit": "meter",
-                            "type": "double"
-                        }
-                    ],
-                    "input": [
-                        {
-                            "name": "temperature sum",
-                            "varname": "ts",
-                            "description": "total annual temperature sum with thresphold +5 C",
-                            "group": "stand",
-                            "unit": "decimal degree"
-                        },
-                        {
-                            "name": "altitude",
-                            "varname": "alt",
-                            "description": "Altitude above sea level",
-                            "group": "stand",
-                            "unit": "meter"
-                        }
-                    ]
-                },
-                "additionalContent": {
-                    "interpreter": "käännösohjedokumentti"
-                }
-            }
-        ]
-    },
-    {
-        "title": "MELA2018 natural process",
-        "description": "General models for MELA2018",
-        "searchPhrases": [
-            "natural process",
-            "height development"
+        "language": "Lua",
+        "modelId": "ID_HGM_1",
+        "modifiedDate": "2021-05-21T00:00:00.000Z",
+        "name": "Height growth model",
+        "outputs": [
+          {
+            "name": "Tree height",
+            "unit": "m"
+          },
+          {
+            "name": "growth 5 years",
+            "unit": "m"
+          }
         ],
-        "models": [
-            {
-                "publicationDetails": {
-                    "date": "2018-01-01T12:00:00.000Z",
-                    "modeledBy": [
-                        "Hynynen",
-                        "Salminen"
-                    ],
-                    "publishedIn": "Hynynen, J., Ojansuu, R., Hökkä, H., Siipilehto, J., Salminen, H. & Haapala, P. 2002. Models for predicting stand development in MELA System. Metsäntutkimuslaitoksen tiedonantoja 835. p. 28. (http://urn.fi/URN:ISBN:951-40-1815-X)",
-                    "references": [
-                        "Kuusela, K. & Salminen S. 1969. The slh5lh National Forest Inventory in Finland. Communicationes Instituti Forestalls Fenniae 69(4): 1-72."
-                    ]
-                },
-                "technicalDetails": {
-                    "writtenBy": "NN",
-                    "programmingLanguage": "Fortran",
-                    "file": "",
-                    "dependencies": {
-                        "internal": [],
-                        "external": []
-                    },
-                    "siblingModels": [
-                        {
-                            "name": "hdom_mineral_spruce",
-                            "description": "Height development for dominant trees on mineral soils for spruces"
-                        },
-                        {
-                            "name": "hdom_mineral_birch",
-                            "description": "Height development for dominant trees on mineral soils for birches"
-                        }
-                    ]
-                },
-                "certificationDetails": {
-                    "certifiedBy": "NN",
-                    "version": "1.0",
-                    "date": "2021-05-24T12:00:00.000Z",
-                    "modified": "",
-                    "validation": {
-                        "date": "",
-                        "description": "Aineisto jota vasten validoitu",
-                        "reliability": {
-                            "cost": 1000
-                        }
-                    },
-                    "calibration": {
-                        "date": "",
-                        "description": "Aineisto jota vasten kalibroitu"
-                    }
-                },
-                "generalDetails": {
-                    "name": "hdom_mineral_pine",
-                    "group": "tree",
-                    "description": "Heigth development for dominant trees on mineral soils",
-                    "applicableTo": {
-                        "species": [
-                            "scots pine"
-                        ],
-                        "soilCategory": [
-                            "mineral soil"
-                        ]
-                    },
-                    "output": [
-                        {
-                            "varname": "hdom",
-                            "group": "tree",
-                            "unit": "meter",
-                            "type": "double"
-                        }
-                    ],
-                    "input": [
-                        {
-                            "name": "temperature sum",
-                            "varname": "ts",
-                            "description": "total annual temperature sum with thresphold +5 C",
-                            "group": "stand",
-                            "unit": "decimal degree"
-                        },
-                        {
-                            "name": "altitude",
-                            "varname": "alt",
-                            "description": "Altitude above sea level",
-                            "group": "stand",
-                            "unit": "meter"
-                        }
-                    ]
-                },
-                "additionalContent": {
-                    "interpreter": "käännösohjedokumentti"
-                }
-            }
-        ]
-    }
+        "package": "Natural processes",
+        "reference": "",
+        "referenceUrl": "http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf",
+        "remarks": "Calibrated with NFI8 data",
+        "year": 2014
+      },
+      {
+        "applicability": "Applicable to all tree species in Finland",
+        "createdDate": "2021-06-04T00:00:00.000Z",
+        "description": "Predicts height of a single tree",
+        "developers": [
+          "RM"
+        ],
+        "inputs": [
+          {
+            "name": "Tree species",
+            "unit": "???"
+          },
+          {
+            "name": "diameter",
+            "unit": "cm"
+          }
+        ],
+        "language": "C",
+        "modelId": "ID_HEIGHT_2",
+        "modifiedDate": "2021-06-04T00:00:00.000Z",
+        "name": "Näslund height model",
+        "outputs": [
+          {
+            "name": "Tree height",
+            "unit": "m"
+          }
+        ],
+        "package": "Natural processes",
+        "reference": "Näslund, M. 1936. Skogsförsöksanstaltens gallringsförsök i tallskog. Meddelanden från Statens Skogsförsöksanstalt 29. 169 p.",
+        "referenceUrl": "",
+        "remarks": "",
+        "year": 1936
+      }
+    ]
+  },
+  {
+    "name": "Additional calculations for pricing",
+    "models": [
+      {
+        "applicability": "Applicable to all tree species in Finland",
+        "createdDate": "2021-05-24T00:00:00.000Z",
+        "description": "Calculates timber assortment volumes for pine",
+        "developers": [
+          "DM"
+        ],
+        "inputs": [
+          {
+            "name": "Tree species",
+            "unit": "???"
+          },
+          {
+            "name": "diameter",
+            "unit": "cm"
+          },
+          {
+            "name": "height",
+            "unit": "m"
+          },
+          {
+            "name": "sawwoodmin",
+            "unit": "cm"
+          },
+          {
+            "name": "pulpwoodmin",
+            "unit": "cm"
+          }
+        ],
+        "language": "R",
+        "modelId": "ID_TREE_VOL_PINE_3",
+        "modifiedDate": "2021-05-24T00:00:00.000Z",
+        "name": "Tree volume (pine)",
+        "outputs": [
+          {
+            "name": "Total volume",
+            "unit": "m3"
+          },
+          {
+            "name": "sawwoodvolume",
+            "unit": "m3"
+          },
+          {
+            "name": "pulpwoodvolume",
+            "unit": "m3"
+          },
+          {
+            "name": "energywoodvolume",
+            "unit": "m3"
+          }
+        ],
+        "package": "Additional calculations for pricing",
+        "reference": "",
+        "referenceUrl": "http://urn.fi/URN:ISBN:951-40-0589-9",
+        "remarks": "",
+        "year": 1982
+      }
+    ]
+  },
+  {
+    "name": "Distributions for tree set formulation",
+    "models": [
+      {
+        "applicability": "Applicable to pine in Finland",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Calculates parameters of Weibull distribution for pine stratum",
+        "developers": [
+          "RM"
+        ],
+        "inputs": [
+          {
+            "name": "Basal area median diameter",
+            "unit": "cm"
+          },
+          {
+            "name": "basal area",
+            "unit": "m2"
+          }
+        ],
+        "language": "Fortran",
+        "modelId": "ID_WBL_4",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Weibull distibution parameters (pine)",
+        "outputs": [
+          {
+            "name": "a",
+            "unit": null
+          },
+          {
+            "name": "b",
+            "unit": null
+          },
+          {
+            "name": "c",
+            "unit": null
+          }
+        ],
+        "package": "Distributions for tree set formulation",
+        "reference": "Mykkänen, R. 1986. Weibull-funktion käyttö puuston läpimittajakauman estimoinnissa. M.Sc thesis. University of Joensuu, Faculty of Forestry. 76p.",
+        "referenceUrl": "",
+        "remarks": "Outputs are the Weibull distribution parameters",
+        "year": 1986
+      }
+    ]
+  }
 ]

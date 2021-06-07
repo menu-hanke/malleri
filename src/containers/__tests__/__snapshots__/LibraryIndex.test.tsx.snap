@@ -7,20 +7,21 @@ exports[`snapshot should match 1`] = `
     placeholder="Filter by title..."
     type="text"
   />
-  <input
-    onChange={[Function]}
-    placeholder="Filter by description..."
-    type="text"
-  />
   <ul>
-    <li>
-      MELA2016 natural process
+    <li
+      onClick={[Function]}
+    >
+      Natural processes
     </li>
-    <li>
-      MELA2017 natural process
+    <li
+      onClick={[Function]}
+    >
+      Additional calculations for pricing
     </li>
-    <li>
-      MELA2018 natural process
+    <li
+      onClick={[Function]}
+    >
+      Distributions for tree set formulation
     </li>
   </ul>
 </div>
