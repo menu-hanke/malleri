@@ -52,9 +52,9 @@ export default (props: Props) => {
       />
       <LibraryTable>
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <tr>
+          <tr key={i}>
             <LibraryTableCell>
-              <a key={i} onClick={() => setItemInModal(item)}>{item.name}</a>
+              <a onClick={() => setItemInModal(item)}>{item.name}</a>
             </LibraryTableCell>
           </tr>
         ))}
