@@ -49,16 +49,15 @@ export default (props: Props) => {
         placeholder="Filter by title..."
         onChange={(event) => setTitleFilterInput(event.target.value)}
       />
-      <ul>
+      <table className="packagelist">
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <li
-            key={i}
-            onClick={() => setItemInModal(item)}
-          >
-            {item.name}
-          </li>
-        ))}
-      </ul>
+          <tr>
+            <td>
+              <a key={i} onClick={() => setItemInModal(item)}>{item.name}</a>
+            </td>  
+        </tr>
+        ))}   
+      </table>
     </div>
   );
 };
