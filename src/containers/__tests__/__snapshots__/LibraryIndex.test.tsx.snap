@@ -7,7 +7,9 @@ exports[`snapshot should match 1`] = `
     placeholder="Filter by title..."
     type="text"
   />
-  <table>
+  <table
+    className="packagelist"
+  >
     <tr>
       <td>
         <a

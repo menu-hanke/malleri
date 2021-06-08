@@ -49,7 +49,7 @@ export default (props: Props) => {
         placeholder="Filter by title..."
         onChange={(event) => setTitleFilterInput(event.target.value)}
       />
-      <table>
+      <table className="packagelist">
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
           <tr>
             <td>

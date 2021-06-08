@@ -31,3 +31,12 @@ nav a {
 .content {
   padding: 1rem;
 }
+
+table.packagelist {
+  padding: 1rem;
+  width: 40%; 
+}
+
+table.packagelist td {
+  padding: 8px;
+}
