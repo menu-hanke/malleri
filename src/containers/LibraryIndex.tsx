@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Modal from 'react-modal';
+import {LibraryTable, LibraryTableCell} from '../Styled';
 import {ModelFunctionPackage} from '../../types';
 
 export interface Props {
@@ -49,15 +50,15 @@ export default (props: Props) => {
         placeholder="Filter by title..."
         onChange={(event) => setTitleFilterInput(event.target.value)}
       />
-      <table className="packagelist">
+      <LibraryTable>
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <tr>
-            <td>
-              <a key={i} onClick={() => setItemInModal(item)}>{item.name}</a>
-            </td>  
-        </tr>
-        ))}   
-      </table>
+          <tr key={i}>
+            <LibraryTableCell>
+              <a onClick={() => setItemInModal(item)}>{item.name}</a>
+            </LibraryTableCell>
+          </tr>
+        ))}
+      </LibraryTable>
     </div>
   );
 };

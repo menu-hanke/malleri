@@ -1,3 +1,6 @@
+import styled, {createGlobalStyle} from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
     'Lucida Grande', sans-serif;
@@ -31,12 +34,13 @@ nav a {
 .content {
   padding: 1rem;
 }
+`;
 
-table.packagelist {
+export const LibraryTable = styled.table`
   padding: 1rem;
-  width: 40%; 
-}
+  width: 40%;
+`;
 
-table.packagelist td {
+export const LibraryTableCell = styled.td`
   padding: 8px;
-}
+`;

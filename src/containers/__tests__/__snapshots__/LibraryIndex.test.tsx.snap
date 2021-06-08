@@ -8,10 +8,12 @@ exports[`snapshot should match 1`] = `
     type="text"
   />
   <table
-    className="packagelist"
+    className="sc-bdnxRM hdzVvY"
   >
     <tr>
-      <td>
+      <td
+        className="sc-gtsrHT gBukoy"
+      >
         <a
           onClick={[Function]}
         >
@@ -20,7 +22,9 @@ exports[`snapshot should match 1`] = `
       </td>
     </tr>
     <tr>
-      <td>
+      <td
+        className="sc-gtsrHT gBukoy"
+      >
         <a
           onClick={[Function]}
         >
@@ -29,7 +33,9 @@ exports[`snapshot should match 1`] = `
       </td>
     </tr>
     <tr>
-      <td>
+      <td
+        className="sc-gtsrHT gBukoy"
+      >
         <a
           onClick={[Function]}
         >
