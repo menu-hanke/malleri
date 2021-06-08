@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import styled, {createGlobalStyle} from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -34,4 +34,13 @@ nav a {
 .content {
   padding: 1rem;
 }
+`;
+
+export const LibraryTable = styled.table`
+  padding: 1rem;
+  width: 40%;
+`;
+
+export const LibraryTableCell = styled.td`
+  padding: 8px;
 `;
