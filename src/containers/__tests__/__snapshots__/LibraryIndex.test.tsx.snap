@@ -7,22 +7,34 @@ exports[`snapshot should match 1`] = `
     placeholder="Filter by title..."
     type="text"
   />
-  <ul>
-    <li
-      onClick={[Function]}
-    >
-      Natural processes
-    </li>
-    <li
-      onClick={[Function]}
-    >
-      Additional calculations for pricing
-    </li>
-    <li
-      onClick={[Function]}
-    >
-      Distributions for tree set formulation
-    </li>
-  </ul>
+  <table>
+    <tr>
+      <td>
+        <a
+          onClick={[Function]}
+        >
+          Natural processes
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          onClick={[Function]}
+        >
+          Additional calculations for pricing
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          onClick={[Function]}
+        >
+          Distributions for tree set formulation
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 `;
