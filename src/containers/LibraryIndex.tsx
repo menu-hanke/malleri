@@ -51,9 +51,9 @@ export default (props: Props) => {
       />
       <table className="packagelist">
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <tr>
+          <tr key={i}>
             <td>
-              <a key={i} onClick={() => setItemInModal(item)}>{item.name}</a>
+              <a onClick={() => setItemInModal(item)}>{item.name}</a>
             </td>  
         </tr>
         ))}   
