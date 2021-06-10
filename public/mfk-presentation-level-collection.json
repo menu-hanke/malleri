@@ -1,6 +1,7 @@
 [
   {
     "name": "Natural processes",
+    "description": "description1",
     "models": [
       {
         "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
@@ -75,11 +76,123 @@
         "referenceUrl": "",
         "remarks": "",
         "year": 1936
+      },
+      {
+        "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Predicts diameter growth of individual tree for the next 5 years period",
+        "developers": [
+          "NN"
+        ],
+        "inputs": [
+          {
+            "name": "Tree species",
+            "unit": null
+          },
+          {
+            "name": "diameter at breast height",
+            "unit": "cm"
+          },
+          {
+            "name": "maximum diameter of the stand",
+            "unit": "cm"
+          },
+          {
+            "name": "growth rate parameter",
+            "unit": "Modelled ID_GRP_1"
+          }
+        ],
+        "language": "Lua",
+        "modelId": "ID_DGM_1",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Diameter growth model",
+        "outputs": [
+          {
+            "name": "Tree diameter growth 5 years",
+            "unit": "cm/5a"
+          }
+        ],
+        "package": "Natural processes",
+        "reference": "",
+        "referenceUrl": "http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf",
+        "remarks": "Calibrated with NFI8 data",
+        "year": 2014
+      },
+      {
+        "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Growth rate parameter for diameter growth model ID_DGM_1",
+        "developers": [
+          "NN"
+        ],
+        "inputs": [
+          {
+            "name": "Actual temperature sum",
+            "unit": "dd"
+          },
+          {
+            "name": "Site type category",
+            "unit": null
+          },
+          {
+            "name": "relative density factors",
+            "unit": null
+          },
+          {
+            "name": "relative density factors of the larger trees than the subject tree",
+            "unit": null
+          }
+        ],
+        "language": "Lua",
+        "modelId": "ID_GRP_1",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Growth rate parameter",
+        "outputs": [
+          {
+            "name": "Growth rate parameter",
+            "unit": null
+          }
+        ],
+        "package": "Natural processes",
+        "reference": "",
+        "referenceUrl": "http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf",
+        "remarks": "",
+        "year": 2014
+      },
+      {
+        "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Predicts stump diameter",
+        "developers": [
+          "NN"
+        ],
+        "inputs": [
+          {
+            "name": "Diameter at breast height",
+            "unit": "cm"
+          }
+        ],
+        "language": "Lua",
+        "modelId": "ID_STUMP_DIAM_1",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Stump diameter model",
+        "outputs": [
+          {
+            "name": "Stump diameter",
+            "unit": "cm"
+          }
+        ],
+        "package": "Natural processes",
+        "reference": "",
+        "referenceUrl": "http://urn.fi/URN:ISBN:951-40-0164-8",
+        "remarks": "",
+        "year": 1975
       }
     ]
   },
   {
-    "name": "Additional calculations for pricing",
+    "name": "Tree volume calculations",
+    "description": "description2",
     "models": [
       {
         "applicability": "Applicable to all tree species in Finland",
@@ -132,7 +245,7 @@
             "unit": "m3"
           }
         ],
-        "package": "Additional calculations for pricing",
+        "package": "Tree volume calculations",
         "reference": "",
         "referenceUrl": "http://urn.fi/URN:ISBN:951-40-0589-9",
         "remarks": "",
@@ -141,7 +254,8 @@
     ]
   },
   {
-    "name": "Distributions for tree set formulation",
+    "name": "Initial data conversion",
+    "description": "description3",
     "models": [
       {
         "applicability": "Applicable to pine in Finland",
@@ -178,7 +292,7 @@
             "unit": null
           }
         ],
-        "package": "Distributions for tree set formulation",
+        "package": "Initial data conversion",
         "reference": "Mykkänen, R. 1986. Weibull-funktion käyttö puuston läpimittajakauman estimoinnissa. M.Sc thesis. University of Joensuu, Faculty of Forestry. 76p.",
         "referenceUrl": "",
         "remarks": "Outputs are the Weibull distribution parameters",

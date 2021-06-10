@@ -22,6 +22,7 @@ export interface ModelFunction {
 }
 
 export interface ModelFunctionPackage {
-  name: string,
+  name: string
+  description: string
   models: ModelFunction[]
 }
