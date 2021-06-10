@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import {LibraryTable, LibraryTableCell} from '../Styled';
 import {ModelFunctionPackage} from '../../types';
+import PackageDetail from './PackageDetail';
 
 export interface Props {
   packages: ModelFunctionPackage[]
@@ -36,15 +37,7 @@ export default (props: Props) => {
         onRequestClose={() => setItemInModal(placeholderPackageItem)}
         contentLabel="Mallifunktiopaketin sisältö"
       >
-        <b>{itemInModal.name}</b>
-        <p>
-          Mallit:
-          <ul>
-            {itemInModal.models.map((model, i) =>
-              (<li key={i}>{model.name}</li>))}
-          </ul>
-        </p>
-
+        <PackageDetail modelPackage={itemInModal} />
       </Modal>
       <input
         type="text"
