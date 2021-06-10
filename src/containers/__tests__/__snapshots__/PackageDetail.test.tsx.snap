@@ -1,0 +1,720 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot should match 1`] = `
+<div>
+  <h3>
+    Natural processes
+  </h3>
+  <p>
+    description1
+  </p>
+  <ul>
+    <div
+      className="sc-hKFxyN ilCskO"
+    >
+      <h4>
+        Height growth model
+      </h4>
+      <p>
+        Predicts height growth of individual tree for the next 5 years period
+      </p>
+      <p>
+        Developed by:
+        <ul>
+          <li>
+            NN
+          </li>
+        </ul>
+      </p>
+      <div
+        className="sc-eCApnc isRVJb"
+      >
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function inputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Tree species
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                ???
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Tree height
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                m
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Site Temperature sum
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                °C
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function outputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Tree height
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                m
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                growth 5 years
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                m
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p>
+        Applicability: 
+        Applicable to all tree species in Finland including uplands and peatlands
+      </p>
+      <p>
+        Created: 
+        2021-05-21T00:00:00.000Z
+      </p>
+      <p>
+        Modified: 
+        2021-05-21T00:00:00.000Z
+      </p>
+      <p>
+        Remarks: 
+        Calibrated with NFI8 data
+      </p>
+      <p>
+        Reference: 
+        <a
+          href="http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf"
+        >
+          http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf
+        </a>
+      </p>
+    </div>
+    <div
+      className="sc-hKFxyN ilCskO"
+    >
+      <h4>
+        Näslund height model
+      </h4>
+      <p>
+        Predicts height of a single tree
+      </p>
+      <p>
+        Developed by:
+        <ul>
+          <li>
+            RM
+          </li>
+        </ul>
+      </p>
+      <div
+        className="sc-eCApnc isRVJb"
+      >
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function inputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Tree species
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                ???
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                diameter
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                cm
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function outputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Tree height
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                m
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p>
+        Applicability: 
+        Applicable to all tree species in Finland
+      </p>
+      <p>
+        Created: 
+        2021-06-04T00:00:00.000Z
+      </p>
+      <p>
+        Modified: 
+        2021-06-04T00:00:00.000Z
+      </p>
+      <p>
+        Remarks: 
+        
+      </p>
+      <p>
+        Reference: 
+        Näslund, M. 1936. Skogsförsöksanstaltens gallringsförsök i tallskog. Meddelanden från Statens Skogsförsöksanstalt 29. 169 p.
+      </p>
+    </div>
+    <div
+      className="sc-hKFxyN ilCskO"
+    >
+      <h4>
+        Diameter growth model
+      </h4>
+      <p>
+        Predicts diameter growth of individual tree for the next 5 years period
+      </p>
+      <p>
+        Developed by:
+        <ul>
+          <li>
+            NN
+          </li>
+        </ul>
+      </p>
+      <div
+        className="sc-eCApnc isRVJb"
+      >
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function inputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Tree species
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              />
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                diameter at breast height
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                cm
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                maximum diameter of the stand
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                cm
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                growth rate parameter
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                Modelled ID_GRP_1
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function outputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Tree diameter growth 5 years
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                cm/5a
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p>
+        Applicability: 
+        Applicable to all tree species in Finland including uplands and peatlands
+      </p>
+      <p>
+        Created: 
+        2021-06-06T00:00:00.000Z
+      </p>
+      <p>
+        Modified: 
+        2021-06-06T00:00:00.000Z
+      </p>
+      <p>
+        Remarks: 
+        Calibrated with NFI8 data
+      </p>
+      <p>
+        Reference: 
+        <a
+          href="http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf"
+        >
+          http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf
+        </a>
+      </p>
+    </div>
+    <div
+      className="sc-hKFxyN ilCskO"
+    >
+      <h4>
+        Growth rate parameter
+      </h4>
+      <p>
+        Growth rate parameter for diameter growth model ID_DGM_1
+      </p>
+      <p>
+        Developed by:
+        <ul>
+          <li>
+            NN
+          </li>
+        </ul>
+      </p>
+      <div
+        className="sc-eCApnc isRVJb"
+      >
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function inputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Actual temperature sum
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                dd
+              </td>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Site type category
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              />
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                relative density factors
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              />
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                relative density factors of the larger trees than the subject tree
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              />
+            </tr>
+          </table>
+        </div>
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function outputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Growth rate parameter
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              />
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p>
+        Applicability: 
+        Applicable to all tree species in Finland including uplands and peatlands
+      </p>
+      <p>
+        Created: 
+        2021-06-06T00:00:00.000Z
+      </p>
+      <p>
+        Modified: 
+        2021-06-06T00:00:00.000Z
+      </p>
+      <p>
+        Remarks: 
+        
+      </p>
+      <p>
+        Reference: 
+        <a
+          href="http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf"
+        >
+          http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf
+        </a>
+      </p>
+    </div>
+    <div
+      className="sc-hKFxyN ilCskO"
+    >
+      <h4>
+        Stump diameter model
+      </h4>
+      <p>
+        Predicts stump diameter
+      </p>
+      <p>
+        Developed by:
+        <ul>
+          <li>
+            NN
+          </li>
+        </ul>
+      </p>
+      <div
+        className="sc-eCApnc isRVJb"
+      >
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function inputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Diameter at breast height
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                cm
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div
+          className="sc-jSFjdj iVWeut"
+        >
+          Model function outputs:
+          <table
+            className="sc-bdnxRM jHwdk"
+          >
+            <tr>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Name
+              </th>
+              <th
+                className="sc-gtsrHT jWWmOr"
+              >
+                Unit
+              </th>
+            </tr>
+            <tr>
+              <td
+                className="sc-dlnjwi bulBzZ"
+                width="75%"
+              >
+                Stump diameter
+              </td>
+              <td
+                className="sc-dlnjwi bulAnU"
+                width="25%"
+              >
+                cm
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p>
+        Applicability: 
+        Applicable to all tree species in Finland including uplands and peatlands
+      </p>
+      <p>
+        Created: 
+        2021-06-06T00:00:00.000Z
+      </p>
+      <p>
+        Modified: 
+        2021-06-06T00:00:00.000Z
+      </p>
+      <p>
+        Remarks: 
+        
+      </p>
+      <p>
+        Reference: 
+        <a
+          href="http://urn.fi/URN:ISBN:951-40-0164-8"
+        >
+          http://urn.fi/URN:ISBN:951-40-0164-8
+        </a>
+      </p>
+    </div>
+  </ul>
+</div>
+`;
