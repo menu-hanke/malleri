@@ -28,7 +28,7 @@ exports[`snapshot should match 1`] = `
         <a
           onClick={[Function]}
         >
-          Additional calculations for pricing
+          Tree volume calculations
         </a>
       </td>
     </tr>
@@ -39,7 +39,7 @@ exports[`snapshot should match 1`] = `
         <a
           onClick={[Function]}
         >
-          Distributions for tree set formulation
+          Initial data conversion
         </a>
       </td>
     </tr>
