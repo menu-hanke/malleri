@@ -11,9 +11,9 @@ function App() {
     <Root>
       <GlobalStyle />
       <nav>
-        <Link to="/">Etusivu</Link>
-        <Link to="/library">Mallifunktiokirjasto</Link>
-        <Link to="/simulator">Simulaattori</Link>
+        <Link to="/">Homepage</Link>
+        <Link to="/library">Library</Link>
+        <Link to="/simulator">Mela2.0 software</Link>
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
