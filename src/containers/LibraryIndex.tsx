@@ -9,6 +9,7 @@ export interface Props {
 
 const placeholderPackageItem = {
   name: '',
+  description: '',
   models: []
 };
 
