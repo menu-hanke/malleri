@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import {LibraryTable, LibraryTableCell} from '../Styled';
 import {ModelFunctionPackage} from '../../types';
+import Collapsible from '../components/Collapsible';
 
 export interface Props {
   packages: ModelFunctionPackage[]
@@ -55,7 +56,11 @@ export default (props: Props) => {
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
           <tr key={i}>
             <LibraryTableCell>
-              <a onClick={() => setItemInModal(item)}>{item.name}</a>
+              <Collapsible header={item.name}>
+                Description: {item.description}<br/>
+                Models: {item.models.length}<br/>
+                <a onClick={() => setItemInModal(item)}>More details...</a>
+              </Collapsible>
             </LibraryTableCell>
           </tr>
         ))}

@@ -14,33 +14,75 @@ exports[`snapshot should match 1`] = `
       <td
         className="sc-gtsrHT gBukoy"
       >
-        <a
-          onClick={[Function]}
-        >
-          Natural processes
-        </a>
+        <table>
+          <tr>
+            <td
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": "20px",
+                }
+              }
+            >
+              <b>
+                +
+              </b>
+            </td>
+            <td>
+              Natural processes
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
     <tr>
       <td
         className="sc-gtsrHT gBukoy"
       >
-        <a
-          onClick={[Function]}
-        >
-          Tree volume calculations
-        </a>
+        <table>
+          <tr>
+            <td
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": "20px",
+                }
+              }
+            >
+              <b>
+                +
+              </b>
+            </td>
+            <td>
+              Tree volume calculations
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
     <tr>
       <td
         className="sc-gtsrHT gBukoy"
       >
-        <a
-          onClick={[Function]}
-        >
-          Initial data conversion
-        </a>
+        <table>
+          <tr>
+            <td
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": "20px",
+                }
+              }
+            >
+              <b>
+                +
+              </b>
+            </td>
+            <td>
+              Initial data conversion
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </table>
