@@ -37,13 +37,10 @@ export default ({model}: Props) => {
     <ModelContainer>
       <h4>{model.name}</h4>
       <p>{model.description}</p>
-      <p>
-        Developed by:
-        <ul>
-          {model.developers.map((item, ii) => (<li key={ii}>{item}</li>))}
-        </ul>
-      </p>
-
+      Developed by:
+      <ul>
+        {model.developers.map((item, ii) => (<li key={ii}>{item}</li>))}
+      </ul>
       <IOContainer>
         <IOItem>
           Model function inputs:

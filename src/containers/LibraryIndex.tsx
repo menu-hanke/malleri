@@ -45,13 +45,15 @@ export default (props: Props) => {
         onChange={(event) => setTitleFilterInput(event.target.value)}
       />
       <LibraryTable>
-        {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <tr key={i}>
-            <LibraryTableCell>
-              <a onClick={() => setItemInModal(item)}>{item.name}</a>
-            </LibraryTableCell>
-          </tr>
-        ))}
+        <tbody>
+          {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
+            <tr key={i}>
+              <LibraryTableCell>
+                <a onClick={() => setItemInModal(item)}>{item.name}</a>
+              </LibraryTableCell>
+            </tr>
+          ))}
+        </tbody>
       </LibraryTable>
     </div>
   );

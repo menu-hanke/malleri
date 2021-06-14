@@ -18,14 +18,12 @@ exports[`snapshot should match 1`] = `
       <p>
         Predicts height growth of individual tree for the next 5 years period
       </p>
-      <p>
-        Developed by:
-        <ul>
-          <li>
-            NN
-          </li>
-        </ul>
-      </p>
+      Developed by:
+      <ul>
+        <li>
+          NN
+        </li>
+      </ul>
       <div
         className="sc-eCApnc isRVJb"
       >
@@ -36,60 +34,64 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Tree species
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                ???
-              </td>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Tree height
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                m
-              </td>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Site Temperature sum
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                °C
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Tree species
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  ???
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Tree height
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  m
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Site Temperature sum
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  °C
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div
@@ -99,46 +101,50 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Tree height
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                m
-              </td>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                growth 5 years
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                m
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Tree height
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  m
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  growth 5 years
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  m
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -178,14 +184,12 @@ exports[`snapshot should match 1`] = `
       <p>
         Predicts height of a single tree
       </p>
-      <p>
-        Developed by:
-        <ul>
-          <li>
-            RM
-          </li>
-        </ul>
-      </p>
+      Developed by:
+      <ul>
+        <li>
+          RM
+        </li>
+      </ul>
       <div
         className="sc-eCApnc isRVJb"
       >
@@ -196,46 +200,50 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Tree species
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                ???
-              </td>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                diameter
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                cm
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Tree species
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  ???
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  diameter
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  cm
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div
@@ -245,32 +253,36 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Tree height
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                m
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Tree height
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  m
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -304,14 +316,12 @@ exports[`snapshot should match 1`] = `
       <p>
         Predicts diameter growth of individual tree for the next 5 years period
       </p>
-      <p>
-        Developed by:
-        <ul>
-          <li>
-            NN
-          </li>
-        </ul>
-      </p>
+      Developed by:
+      <ul>
+        <li>
+          NN
+        </li>
+      </ul>
       <div
         className="sc-eCApnc isRVJb"
       >
@@ -322,72 +332,76 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Tree species
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              />
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                diameter at breast height
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                cm
-              </td>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                maximum diameter of the stand
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                cm
-              </td>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                growth rate parameter
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                Modelled ID_GRP_1
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Tree species
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  diameter at breast height
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  cm
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  maximum diameter of the stand
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  cm
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  growth rate parameter
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  Modelled ID_GRP_1
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div
@@ -397,32 +411,36 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Tree diameter growth 5 years
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                cm/5a
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Tree diameter growth 5 years
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  cm/5a
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -462,14 +480,12 @@ exports[`snapshot should match 1`] = `
       <p>
         Growth rate parameter for diameter growth model ID_DGM_1
       </p>
-      <p>
-        Developed by:
-        <ul>
-          <li>
-            NN
-          </li>
-        </ul>
-      </p>
+      Developed by:
+      <ul>
+        <li>
+          NN
+        </li>
+      </ul>
       <div
         className="sc-eCApnc isRVJb"
       >
@@ -480,68 +496,72 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Actual temperature sum
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                dd
-              </td>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Site type category
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              />
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                relative density factors
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              />
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                relative density factors of the larger trees than the subject tree
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              />
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Actual temperature sum
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  dd
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Site type category
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  relative density factors
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                />
+              </tr>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  relative density factors of the larger trees than the subject tree
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                />
+              </tr>
+            </tbody>
           </table>
         </div>
         <div
@@ -551,30 +571,34 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Growth rate parameter
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              />
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Growth rate parameter
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                />
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -614,14 +638,12 @@ exports[`snapshot should match 1`] = `
       <p>
         Predicts stump diameter
       </p>
-      <p>
-        Developed by:
-        <ul>
-          <li>
-            NN
-          </li>
-        </ul>
-      </p>
+      Developed by:
+      <ul>
+        <li>
+          NN
+        </li>
+      </ul>
       <div
         className="sc-eCApnc isRVJb"
       >
@@ -632,32 +654,36 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Diameter at breast height
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                cm
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Diameter at breast height
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  cm
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div
@@ -667,32 +693,36 @@ exports[`snapshot should match 1`] = `
           <table
             className="sc-bdnxRM jHwdk"
           >
-            <tr>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Name
-              </th>
-              <th
-                className="sc-gtsrHT jWWmOr"
-              >
-                Unit
-              </th>
-            </tr>
-            <tr>
-              <td
-                className="sc-dlnjwi bulBzZ"
-                width="75%"
-              >
-                Stump diameter
-              </td>
-              <td
-                className="sc-dlnjwi bulAnU"
-                width="25%"
-              >
-                cm
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Name
+                </th>
+                <th
+                  className="sc-gtsrHT jWWmOr"
+                >
+                  Unit
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="sc-dlnjwi bulBzZ"
+                  width="75%"
+                >
+                  Stump diameter
+                </td>
+                <td
+                  className="sc-dlnjwi bulAnU"
+                  width="25%"
+                >
+                  cm
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>

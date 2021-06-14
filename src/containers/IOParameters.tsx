@@ -24,16 +24,20 @@ const TableCell = styled.td`
 export default ({parameters}: Props) => {
   return (
     <BorderTable>
-      <tr>
-        <TableHeader>Name</TableHeader>
-        <TableHeader>Unit</TableHeader>
-      </tr>
-      {parameters.map((item, i) => (
-        <tr key={i}>
-          <TableCell width={'75%'}>{item.name}</TableCell>
-          <TableCell width={'25%'}>{item.unit}</TableCell>
+      <thead>
+        <tr>
+          <TableHeader>Name</TableHeader>
+          <TableHeader>Unit</TableHeader>
         </tr>
-      ))}
+      </thead>
+      <tbody>
+        {parameters.map((item, i) => (
+          <tr key={i}>
+            <TableCell width={'75%'}>{item.name}</TableCell>
+            <TableCell width={'25%'}>{item.unit}</TableCell>
+          </tr>
+        ))}
+      </tbody>
     </BorderTable>
   );
 };
