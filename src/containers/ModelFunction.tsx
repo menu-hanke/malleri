@@ -25,6 +25,13 @@ const IOItem = styled.div`
   width: 250px;
 `;
 
+const formatDate = (isoDate) => {
+  const result = new Date(isoDate).toLocaleDateString('fi');
+  if (result === 'Invalid Date') {
+    return 'N/A';
+  } else return result;
+};
+
 export default ({model}: Props) => {
   return (
     <ModelContainer>
@@ -49,8 +56,8 @@ export default ({model}: Props) => {
       </IOContainer>
 
       <p>Applicability: {model.applicability}</p>
-      <p>Created: {model.createdDate}</p>
-      <p>Modified: {model.modifiedDate}</p>
+      <p>Created: {formatDate(model.createdDate)}</p>
+      <p>Modified: {formatDate(model.modifiedDate)}</p>
       <p>Remarks: {model.remarks}</p>
       <p>Reference: {model.referenceUrl.length > 0 ?
         <a href={model.referenceUrl} target="_blank" rel="noreferrer">{model.referenceUrl}</a> : model.reference}</p>
