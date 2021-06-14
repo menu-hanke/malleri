@@ -53,7 +53,7 @@ export default ({model}: Props) => {
       <p>Modified: {model.modifiedDate}</p>
       <p>Remarks: {model.remarks}</p>
       <p>Reference: {model.referenceUrl.length > 0 ?
-        <a href={model.referenceUrl}>{model.referenceUrl}</a> : model.reference}</p>
+        <a href={model.referenceUrl} target="_blank" rel="noreferrer">{model.referenceUrl}</a> : model.reference}</p>
     </ModelContainer>
   );
 }

@@ -162,6 +162,8 @@ exports[`snapshot should match 1`] = `
         Reference: 
         <a
           href="http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf"
+          rel="noreferrer"
+          target="_blank"
         >
           http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf
         </a>
@@ -444,6 +446,8 @@ exports[`snapshot should match 1`] = `
         Reference: 
         <a
           href="http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf"
+          rel="noreferrer"
+          target="_blank"
         >
           http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf
         </a>
@@ -594,6 +598,8 @@ exports[`snapshot should match 1`] = `
         Reference: 
         <a
           href="http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf"
+          rel="noreferrer"
+          target="_blank"
         >
           http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf
         </a>
@@ -710,6 +716,8 @@ exports[`snapshot should match 1`] = `
         Reference: 
         <a
           href="http://urn.fi/URN:ISBN:951-40-0164-8"
+          rel="noreferrer"
+          target="_blank"
         >
           http://urn.fi/URN:ISBN:951-40-0164-8
         </a>
