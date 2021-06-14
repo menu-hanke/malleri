@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import {LibraryTable, LibraryTableCell} from '../Styled';
 import {ModelFunctionPackage} from '../../types';
 import Collapsible from '../components/Collapsible';
+import PackageDetail from './PackageDetail';
 
 export interface Props {
   packages: ModelFunctionPackage[]
@@ -37,15 +38,7 @@ export default (props: Props) => {
         onRequestClose={() => setItemInModal(placeholderPackageItem)}
         contentLabel="Mallifunktiopaketin sisältö"
       >
-        <b>{itemInModal.name}</b>
-        <p>
-          Mallit:
-          <ul>
-            {itemInModal.models.map((model, i) =>
-              (<li key={i}>{model.name}</li>))}
-          </ul>
-        </p>
-
+        <PackageDetail modelPackage={itemInModal} />
       </Modal>
       <input
         type="text"
@@ -53,17 +46,19 @@ export default (props: Props) => {
         onChange={(event) => setTitleFilterInput(event.target.value)}
       />
       <LibraryTable>
-        {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <tr key={i}>
-            <LibraryTableCell>
-              <Collapsible header={item.name}>
-                Description: {item.description}<br/>
-                Models: {item.models.length}<br/>
-                <a onClick={() => setItemInModal(item)}>More details...</a>
-              </Collapsible>
-            </LibraryTableCell>
-          </tr>
-        ))}
+        <tbody>
+          {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
+            <tr key={i}>
+              <LibraryTableCell>
+                <Collapsible header={item.name}>
+                  Description: {item.description}<br/>
+                  Models: {item.models.length}<br/>
+                  <a onClick={() => setItemInModal(item)}>More details...</a>
+                </Collapsible>
+              </LibraryTableCell>
+            </tr>
+          ))}
+        </tbody>
       </LibraryTable>
     </div>
   );
