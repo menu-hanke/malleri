@@ -1,7 +1,7 @@
 [
   {
     "name": "Natural processes",
-    "description": "description1",
+    "description": "The models predict tree stock development according to natural processes including tree growth,  natural loss, self thinning and birth",
     "models": [
       {
         "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
@@ -43,39 +43,6 @@
         "referenceUrl": "http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf",
         "remarks": "Calibrated with NFI8 data",
         "year": 2014
-      },
-      {
-        "applicability": "Applicable to all tree species in Finland",
-        "createdDate": "2021-06-04T00:00:00.000Z",
-        "description": "Predicts height of a single tree",
-        "developers": [
-          "RM"
-        ],
-        "inputs": [
-          {
-            "name": "Tree species",
-            "unit": "???"
-          },
-          {
-            "name": "diameter",
-            "unit": "cm"
-          }
-        ],
-        "language": "C",
-        "modelId": "ID_HEIGHT_2",
-        "modifiedDate": "2021-06-04T00:00:00.000Z",
-        "name": "Näslund height model",
-        "outputs": [
-          {
-            "name": "Tree height",
-            "unit": "m"
-          }
-        ],
-        "package": "Natural processes",
-        "reference": "Näslund, M. 1936. Skogsförsöksanstaltens gallringsförsök i tallskog. Meddelanden från Statens Skogsförsöksanstalt 29. 169 p.",
-        "referenceUrl": "",
-        "remarks": "",
-        "year": 1936
       },
       {
         "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
@@ -191,8 +158,47 @@
     ]
   },
   {
+    "name": "Tree models",
+    "description": "The model package for calculating characteristics of a single tree",
+    "models": [
+      {
+        "applicability": "Applicable to all tree species in Finland",
+        "createdDate": "2021-06-04T00:00:00.000Z",
+        "description": "Predicts height of a single tree",
+        "developers": [
+          "RM"
+        ],
+        "inputs": [
+          {
+            "name": "Tree species",
+            "unit": "???"
+          },
+          {
+            "name": "diameter",
+            "unit": "cm"
+          }
+        ],
+        "language": "C",
+        "modelId": "ID_HEIGHT_2",
+        "modifiedDate": "2021-06-04T00:00:00.000Z",
+        "name": "Näslund height model",
+        "outputs": [
+          {
+            "name": "Tree height",
+            "unit": "m"
+          }
+        ],
+        "package": "Tree models",
+        "reference": "Näslund, M. 1936. Skogsförsöksanstaltens gallringsförsök i tallskog. Meddelanden från Statens Skogsförsöksanstalt 29. 169 p.",
+        "referenceUrl": "",
+        "remarks": "",
+        "year": 1936
+      }
+    ]
+  },
+  {
     "name": "Tree volume calculations",
-    "description": "description2",
+    "description": "The model package contains models to calculate volume of a whole tree and its parts",
     "models": [
       {
         "applicability": "Applicable to all tree species in Finland",
@@ -250,12 +256,110 @@
         "referenceUrl": "http://urn.fi/URN:ISBN:951-40-0589-9",
         "remarks": "",
         "year": 1982
+      },
+      {
+        "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Saw log reduction model",
+        "developers": [
+          "NN"
+        ],
+        "inputs": [
+          {
+            "name": "Tree age",
+            "unit": "a"
+          },
+          {
+            "name": "Diameter at breast height",
+            "unit": "cm"
+          },
+          {
+            "name": "Actual temperature sum",
+            "unit": "dd"
+          },
+          {
+            "name": "X-and Y coordinates",
+            "unit": "1000m"
+          },
+          {
+            "name": "Height above sea level",
+            "unit": "m"
+          },
+          {
+            "name": "Dummy variables such as origin",
+            "unit": null
+          },
+          {
+            "name": "site type",
+            "unit": null
+          },
+          {
+            "name": "soil and peatland category",
+            "unit": null
+          },
+          {
+            "name": "forestry center",
+            "unit": null
+          }
+        ],
+        "language": "Lua",
+        "modelId": "ID_LOG_RED_MEHTATALO_1",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Log volume reduction Mehtätalo",
+        "outputs": [
+          {
+            "name": "Log reduction",
+            "unit": "0-1.0"
+          }
+        ],
+        "package": "Tree volume calculations",
+        "reference": "",
+        "referenceUrl": "https://doi.org/10.14214/ma.6196",
+        "remarks": "",
+        "year": 2002
+      },
+      {
+        "applicability": "Applicable to all tree species in Finland including uplands and peatlands",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Saw log reduction model",
+        "developers": [
+          "NN"
+        ],
+        "inputs": [
+          {
+            "name": "Tree species",
+            "unit": null
+          },
+          {
+            "name": "tree age",
+            "unit": "a"
+          },
+          {
+            "name": "diameter at breast height",
+            "unit": "cm"
+          }
+        ],
+        "language": "Lua",
+        "modelId": "ID_LOG_RED_PAIVINEN_1",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Log volume reduction Päivinen",
+        "outputs": [
+          {
+            "name": "Log reduction",
+            "unit": "0-1.0"
+          }
+        ],
+        "package": "Tree volume calculations",
+        "reference": "",
+        "referenceUrl": "http://urn.fi/URN:ISBN:951-40-0630-5",
+        "remarks": "Can be calibrated if log volume information in the forest resource data are found.",
+        "year": 1983
       }
     ]
   },
   {
     "name": "Initial data conversion",
-    "description": "description3",
+    "description": "Initial data conversion covers models for predicting stand data parameters to formulate calculation data",
     "models": [
       {
         "applicability": "Applicable to pine in Finland",
@@ -297,6 +401,106 @@
         "referenceUrl": "",
         "remarks": "Outputs are the Weibull distribution parameters",
         "year": 1986
+      }
+    ]
+  },
+  {
+    "name": "Berry production",
+    "description": "Models to predict berry production",
+    "models": [
+      {
+        "applicability": "Applicable to mineral soils and spruce mires and pine mires in Finland",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Predicts bilberry yield of the stand",
+        "developers": [
+          "KH"
+        ],
+        "inputs": [
+          {
+            "name": "Stand basal area",
+            "unit": "m3/ha"
+          },
+          {
+            "name": "Dominating tree species",
+            "unit": null
+          },
+          {
+            "name": "Coverage of bilberry",
+            "unit": "%"
+          },
+          {
+            "name": "site type",
+            "unit": null
+          }
+        ],
+        "language": "Fortran",
+        "modelId": "ID_BILBERRY_YIELD_1",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Bilberry yield model",
+        "outputs": [
+          {
+            "name": "Bilberry yield",
+            "unit": "kg/ha"
+          }
+        ],
+        "package": "Berry production",
+        "reference": "",
+        "referenceUrl": "https://doi.org/10.14214/sf.181",
+        "remarks": "Can be calibrated by user.",
+        "year": 2009
+      },
+      {
+        "applicability": "Applicable to mineral soils and spruce mires and pine mires in Finland",
+        "createdDate": "2021-06-06T00:00:00.000Z",
+        "description": "Predicts coverage of bilberry of the stand",
+        "developers": [
+          "KH"
+        ],
+        "inputs": [
+          {
+            "name": "Dominating tree species",
+            "unit": null
+          },
+          {
+            "name": "Regeneration method",
+            "unit": null
+          },
+          {
+            "name": "Altidute",
+            "unit": "m"
+          },
+          {
+            "name": "Stand age",
+            "unit": "a"
+          },
+          {
+            "name": "Stand basal area",
+            "unit": "m3/ha"
+          },
+          {
+            "name": "Site type",
+            "unit": null
+          },
+          {
+            "name": "History of the stand",
+            "unit": "Former agricultural land"
+          }
+        ],
+        "language": "Fortran",
+        "modelId": "ID_BILBERRY_COVERAGE_1",
+        "modifiedDate": "2021-06-06T00:00:00.000Z",
+        "name": "Bilberry coverage model",
+        "outputs": [
+          {
+            "name": "Coverage of bilberry",
+            "unit": "%"
+          }
+        ],
+        "package": "Berry production",
+        "reference": "",
+        "referenceUrl": "https://doi.org/10.14214/sf.181",
+        "remarks": "",
+        "year": 2009
       }
     ]
   }
