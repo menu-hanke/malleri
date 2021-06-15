@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import {LibraryTable, LibraryTableCell} from '../Styled';
 import {ModelFunctionPackage} from '../../types';
+import Collapsible from '../components/Collapsible';
 import PackageDetail from './PackageDetail';
+import styled from 'styled-components';
 
 export interface Props {
   packages: ModelFunctionPackage[]
@@ -13,6 +15,17 @@ const placeholderPackageItem = {
   description: '',
   models: []
 };
+
+const PackageInfo = styled.div`
+  margin-left: 1rem;
+  font-style: italic;
+  font-size: 0.8rem;
+`;
+
+const DetailsButton = styled.button`
+
+  border: 1px solid black;
+`;
 
 export default (props: Props) => {
   // 1. search input and filtering
@@ -49,7 +62,13 @@ export default (props: Props) => {
           {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
             <tr key={i}>
               <LibraryTableCell>
-                <a onClick={() => setItemInModal(item)}>{item.name}</a>
+                <Collapsible header={item.name}>
+                  <PackageInfo>
+                    Description: {item.description}<br/>
+                    Models: {item.models.length}<br/>
+                    <DetailsButton onClick={() => setItemInModal(item)}>Show models...</DetailsButton>
+                  </PackageInfo>
+                </Collapsible>
               </LibraryTableCell>
             </tr>
           ))}
