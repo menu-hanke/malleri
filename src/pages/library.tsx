@@ -16,7 +16,7 @@ export default () => {
         A model function package is a collections of model functions. Generally a model function is a scientific model that has been translated to source code.
       </p>
       <p>
-        The core idea is that model functions are used in simulators that run on top of the simulator platform, but in practice singel model functions may be used in any sophisticated environment.
+        The core idea is that model functions are used in simulators that run on top of the simulator platform, but in practice single model functions can be used in any other environment.
         A single model package may contain model functions written in any publicly available programming language, but at the moment model functions are mainly Lua or R related. In other words feel free to download packages for any need you have.
       </p>
       <p>
