@@ -124,8 +124,5 @@ export default () => (
           Source code for the report generator</a>
       </li>
     </ul>
-
-
-
   </div>
 );
