@@ -6,7 +6,7 @@ exports[`snapshot should match 1`] = `
     Natural processes
   </h3>
   <p>
-    description1
+    The models predict tree stock development according to natural processes including tree growth,  natural loss, self thinning and birth
   </p>
   <ul>
     <div
@@ -173,138 +173,6 @@ exports[`snapshot should match 1`] = `
         >
           http://www.metla.fi/julkaisut/workingpapers/2014/mwp302.pdf
         </a>
-      </p>
-    </div>
-    <div
-      className="sc-hKFxyN ilCskO"
-    >
-      <h4>
-        Näslund height model
-      </h4>
-      <p>
-        Predicts height of a single tree
-      </p>
-      Developed by:
-      <ul>
-        <li>
-          RM
-        </li>
-      </ul>
-      <div
-        className="sc-eCApnc isRVJb"
-      >
-        <div
-          className="sc-jSFjdj iVWeut"
-        >
-          Model function inputs:
-          <table
-            className="sc-bdnxRM jHwdk"
-          >
-            <thead>
-              <tr>
-                <th
-                  className="sc-gtsrHT jWWmOr"
-                >
-                  Name
-                </th>
-                <th
-                  className="sc-gtsrHT jWWmOr"
-                >
-                  Unit
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td
-                  className="sc-dlnjwi bulBzZ"
-                  width="75%"
-                >
-                  Tree species
-                </td>
-                <td
-                  className="sc-dlnjwi bulAnU"
-                  width="25%"
-                >
-                  ???
-                </td>
-              </tr>
-              <tr>
-                <td
-                  className="sc-dlnjwi bulBzZ"
-                  width="75%"
-                >
-                  diameter
-                </td>
-                <td
-                  className="sc-dlnjwi bulAnU"
-                  width="25%"
-                >
-                  cm
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div
-          className="sc-jSFjdj iVWeut"
-        >
-          Model function outputs:
-          <table
-            className="sc-bdnxRM jHwdk"
-          >
-            <thead>
-              <tr>
-                <th
-                  className="sc-gtsrHT jWWmOr"
-                >
-                  Name
-                </th>
-                <th
-                  className="sc-gtsrHT jWWmOr"
-                >
-                  Unit
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td
-                  className="sc-dlnjwi bulBzZ"
-                  width="75%"
-                >
-                  Tree height
-                </td>
-                <td
-                  className="sc-dlnjwi bulAnU"
-                  width="25%"
-                >
-                  m
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <p>
-        Applicability: 
-        Applicable to all tree species in Finland
-      </p>
-      <p>
-        Created: 
-        4.6.2021
-      </p>
-      <p>
-        Modified: 
-        4.6.2021
-      </p>
-      <p>
-        Remarks: 
-        
-      </p>
-      <p>
-        Reference: 
-        Näslund, M. 1936. Skogsförsöksanstaltens gallringsförsök i tallskog. Meddelanden från Statens Skogsförsöksanstalt 29. 169 p.
       </p>
     </div>
     <div
