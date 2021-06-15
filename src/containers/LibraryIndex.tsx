@@ -28,9 +28,6 @@ const DetailsButton = styled.button`
 `;
 
 export default (props: Props) => {
-  // 1. search input and filtering
-  // 2. refactoring & unit testing functionality
-  // 3. new view for model function package
 
   const [titleFilterInput, setTitleFilterInput] = useState('');
   const [itemInModal, setItemInModal]: [ModelFunctionPackage, Function] = useState(placeholderPackageItem);
