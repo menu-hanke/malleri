@@ -10,39 +10,83 @@ exports[`snapshot should match 1`] = `
   <table
     className="sc-bdnxRM hdzVvY"
   >
-    <tr>
-      <td
-        className="sc-gtsrHT gBukoy"
-      >
-        <a
-          onClick={[Function]}
+    <tbody>
+      <tr>
+        <td
+          className="sc-gtsrHT gBukoy"
         >
-          Natural processes
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td
-        className="sc-gtsrHT gBukoy"
-      >
-        <a
-          onClick={[Function]}
+          <table>
+            <tr>
+              <td
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": "20px",
+                  }
+                }
+              >
+                <b>
+                  +
+                </b>
+              </td>
+              <td>
+                Natural processes
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="sc-gtsrHT gBukoy"
         >
-          Additional calculations for pricing
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td
-        className="sc-gtsrHT gBukoy"
-      >
-        <a
-          onClick={[Function]}
+          <table>
+            <tr>
+              <td
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": "20px",
+                  }
+                }
+              >
+                <b>
+                  +
+                </b>
+              </td>
+              <td>
+                Tree volume calculations
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="sc-gtsrHT gBukoy"
         >
-          Distributions for tree set formulation
-        </a>
-      </td>
-    </tr>
+          <table>
+            <tr>
+              <td
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": "20px",
+                  }
+                }
+              >
+                <b>
+                  +
+                </b>
+              </td>
+              <td>
+                Initial data conversion
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </div>
 `;
