@@ -13,8 +13,8 @@ export default (props: Props) => {
 
   return (
     <table>
-      <tr>
-        <td style={{width: '20px'}} onClick={(event) => toggleExpanded()}><b>{isExpanded ? '-' : '+'}</b></td>
+      <tr onClick={toggleExpanded}>
+        <td style={{width: '20px'}}><b>{isExpanded ? '-' : '+'}</b></td>
         <td>{props.header}</td>
       </tr>
       {isExpanded && (
