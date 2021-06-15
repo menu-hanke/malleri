@@ -16,9 +16,10 @@ exports[`snapshot should match 1`] = `
           className="sc-gtsrHT gBukoy"
         >
           <table>
-            <tr>
+            <tr
+              onClick={[Function]}
+            >
               <td
-                onClick={[Function]}
                 style={
                   Object {
                     "width": "20px",
@@ -41,9 +42,10 @@ exports[`snapshot should match 1`] = `
           className="sc-gtsrHT gBukoy"
         >
           <table>
-            <tr>
+            <tr
+              onClick={[Function]}
+            >
               <td
-                onClick={[Function]}
                 style={
                   Object {
                     "width": "20px",
@@ -66,9 +68,10 @@ exports[`snapshot should match 1`] = `
           className="sc-gtsrHT gBukoy"
         >
           <table>
-            <tr>
+            <tr
+              onClick={[Function]}
+            >
               <td
-                onClick={[Function]}
                 style={
                   Object {
                     "width": "20px",
