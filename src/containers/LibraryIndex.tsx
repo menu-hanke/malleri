@@ -44,6 +44,8 @@ export default (props: Props) => {
     return packages.filter(totalFilter);
   };
 
+  const displayedPackages = applyPackagesFiltering(props.packages);
+
   return (
     <BoxContainer>
       <Modal
@@ -66,8 +68,9 @@ export default (props: Props) => {
         onChange={(event) => setModelSearchInput(event.target.value)}
       />
       <hr/>
+      <p>Showing {displayedPackages.length} out of {props.packages.length} packages.</p>
       <FlexContainer>
-        {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => {
+        {displayedPackages.map((item: ModelFunctionPackage, i: number) => {
           const emphasize = packageHasModelsMatchingToSearch(item);
           return (
             <FlexItem key={i}>

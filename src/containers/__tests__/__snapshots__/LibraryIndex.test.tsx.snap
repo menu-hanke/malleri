@@ -19,6 +19,13 @@ exports[`snapshot should match 1`] = `
     type="text"
   />
   <hr />
+  <p>
+    Showing 
+    5
+     out of 
+    5
+     packages.
+  </p>
   <div
     className="sc-bdnxRM geVaNS"
   >
