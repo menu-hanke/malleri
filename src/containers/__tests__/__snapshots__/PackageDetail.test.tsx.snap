@@ -10,7 +10,7 @@ exports[`snapshot should match 1`] = `
   </p>
   <ul>
     <div
-      className="sc-jSFjdj dRkBjd"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Height growth model
@@ -176,7 +176,7 @@ exports[`snapshot should match 1`] = `
       </p>
     </div>
     <div
-      className="sc-jSFjdj dRkBjd"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Diameter growth model
@@ -340,7 +340,7 @@ exports[`snapshot should match 1`] = `
       </p>
     </div>
     <div
-      className="sc-jSFjdj dRkBjd"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Growth rate parameter
@@ -498,7 +498,7 @@ exports[`snapshot should match 1`] = `
       </p>
     </div>
     <div
-      className="sc-jSFjdj dRkBjd"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Stump diameter model

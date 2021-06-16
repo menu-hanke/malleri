@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Modal from 'react-modal';
 import {BoxContainer, FlexContainer, FlexItem} from '../Styled';
-import {ModelFunctionPackage} from '../../types';
+import {ModelFunction, ModelFunctionPackage} from '../../types';
 import PackageDetail from './PackageDetail';
 import styled from 'styled-components';
 
@@ -24,10 +24,20 @@ const PackageInfo = styled.div`
 export default (props: Props) => {
 
   const [packageSearchInput, setPackageSearchInput] = useState('');
+  const [modelSearchInput, setModelSearchInput] = useState('');
   const [itemInModal, setItemInModal]: [ModelFunctionPackage, Function] = useState(placeholderPackageItem);
 
   const totalFilter = (item: ModelFunctionPackage) => {
     return item.name.includes(packageSearchInput) || item.description.includes(packageSearchInput);
+  };
+
+  const modelHasMatchingData = (model: ModelFunction): boolean => {
+    if (modelSearchInput === '' || modelSearchInput.length < 2) return false;
+    return model.name.includes(modelSearchInput) || model.description.includes(modelSearchInput);
+  };
+
+  const packageHasModelsMatchingToSearch = (item: ModelFunctionPackage) => {
+    return item.models.map(modelHasMatchingData).includes(true);
   };
 
   const applyPackagesFiltering = (packages: ModelFunctionPackage[]) => {
@@ -48,18 +58,27 @@ export default (props: Props) => {
         placeholder="Search packages..."
         onChange={(event) => setPackageSearchInput(event.target.value)}
       />
+      <br/>
+      <input
+        type="text"
+        placeholder="Highlight models..."
+        onChange={(event) => setModelSearchInput(event.target.value)}
+      />
       <FlexContainer>
-        {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-          <FlexItem key={i}>
-            <BoxContainer onClick={() => setItemInModal(item)}>
-              {item.name}
-              <PackageInfo>
-                Description: {item.description}<br/>
-                Models: {item.models.length}<br/>
-              </PackageInfo>
-            </BoxContainer>
-          </FlexItem>
-        ))}
+        {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => {
+          const emphasize = packageHasModelsMatchingToSearch(item);
+          return (
+            <FlexItem key={i}>
+              <BoxContainer onClick={() => setItemInModal(item)} emphasize={emphasize}>
+                {item.name}
+                <PackageInfo>
+                  Description: {item.description}<br/>
+                  Models: {item.models.length}<br/>
+                </PackageInfo>
+              </BoxContainer>
+            </FlexItem>
+          );
+        })}
       </FlexContainer>
     </BoxContainer>
   );

@@ -2,11 +2,17 @@
 
 exports[`snapshot should match 1`] = `
 <div
-  className="sc-dlnjwi fsSaU"
+  className="sc-dlnjwi jsZyJl"
 >
   <input
     onChange={[Function]}
     placeholder="Search packages..."
+    type="text"
+  />
+  <br />
+  <input
+    onChange={[Function]}
+    placeholder="Highlight models..."
     type="text"
   />
   <div
@@ -16,7 +22,7 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi fsSaU"
+        className="sc-dlnjwi jsZyJl"
         onClick={[Function]}
       >
         Natural processes
@@ -36,7 +42,7 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi fsSaU"
+        className="sc-dlnjwi jsZyJl"
         onClick={[Function]}
       >
         Tree models
@@ -56,7 +62,7 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi fsSaU"
+        className="sc-dlnjwi jsZyJl"
         onClick={[Function]}
       >
         Tree volume calculations
@@ -76,7 +82,7 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi fsSaU"
+        className="sc-dlnjwi jsZyJl"
         onClick={[Function]}
       >
         Initial data conversion
@@ -96,7 +102,7 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi fsSaU"
+        className="sc-dlnjwi jsZyJl"
         onClick={[Function]}
       >
         Berry production
