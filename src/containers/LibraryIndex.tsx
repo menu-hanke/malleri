@@ -23,11 +23,11 @@ const PackageInfo = styled.div`
 
 export default (props: Props) => {
 
-  const [titleFilterInput, setTitleFilterInput] = useState('');
+  const [packageSearchInput, setPackageSearchInput] = useState('');
   const [itemInModal, setItemInModal]: [ModelFunctionPackage, Function] = useState(placeholderPackageItem);
 
   const totalFilter = (item: ModelFunctionPackage) => {
-    return item.name.includes(titleFilterInput);
+    return item.name.includes(packageSearchInput) || item.description.includes(packageSearchInput);
   };
 
   const applyPackagesFiltering = (packages: ModelFunctionPackage[]) => {
@@ -45,8 +45,8 @@ export default (props: Props) => {
       </Modal>
       <input
         type="text"
-        placeholder="Filter by title..."
-        onChange={(event) => setTitleFilterInput(event.target.value)}
+        placeholder="Search packages..."
+        onChange={(event) => setPackageSearchInput(event.target.value)}
       />
       <FlexContainer>
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
