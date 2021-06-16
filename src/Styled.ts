@@ -11,7 +11,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #108db8;
+  color: #78be20;
   font-weight: bold;
 }
 
@@ -25,7 +25,7 @@ img {
 
 nav {
   width: 100%;
-  background: #108db8;
+  background: #78be20;
 }
 
 nav a {
