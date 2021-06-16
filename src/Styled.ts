@@ -36,28 +36,21 @@ nav a {
 }
 `;
 
-export const LibraryTable = styled.table`
-  padding: 1rem;
-  width: 40%;
-`;
-
-export const LibraryTableCell = styled.td`
-  padding: 8px;
-`;
-
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: stretch;
 `;
 
 export const FlexItem = styled.div`
   flex: none;
-  margin: 5px;
-  width: 250px;
+  width: 25rem;
 `;
 
 export const BoxContainer = styled.div`
   border: 1px solid black;
-  margin-bottom: 5px;
+  padding: 0.2rem;
+  height: 90%;
+  margin: 0.1rem;
 `;

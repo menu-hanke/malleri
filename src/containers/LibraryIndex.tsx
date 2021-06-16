@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Modal from 'react-modal';
-import {LibraryTable, LibraryTableCell} from '../Styled';
+import {BoxContainer, FlexContainer, FlexItem} from '../Styled';
 import {ModelFunctionPackage} from '../../types';
 import Collapsible from '../components/Collapsible';
 import PackageDetail from './PackageDetail';
@@ -41,7 +41,7 @@ export default (props: Props) => {
   };
 
   return (
-    <div>
+    <BoxContainer>
       <Modal
         isOpen={itemInModal != placeholderPackageItem}
         onRequestClose={() => setItemInModal(placeholderPackageItem)}
@@ -54,23 +54,21 @@ export default (props: Props) => {
         placeholder="Filter by title..."
         onChange={(event) => setTitleFilterInput(event.target.value)}
       />
-      <LibraryTable>
-        <tbody>
-          {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-            <tr key={i}>
-              <LibraryTableCell>
-                <Collapsible header={item.name}>
-                  <PackageInfo>
-                    Description: {item.description}<br/>
-                    Models: {item.models.length}<br/>
-                    <DetailsButton onClick={() => setItemInModal(item)}>Show models...</DetailsButton>
-                  </PackageInfo>
-                </Collapsible>
-              </LibraryTableCell>
-            </tr>
-          ))}
-        </tbody>
-      </LibraryTable>
-    </div>
+      <FlexContainer>
+        {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
+          <FlexItem key={i}>
+            <BoxContainer>
+              <Collapsible header={item.name}>
+                <PackageInfo>
+                  Description: {item.description}<br/>
+                  Models: {item.models.length}<br/>
+                  <DetailsButton onClick={() => setItemInModal(item)}>Show models...</DetailsButton>
+                </PackageInfo>
+              </Collapsible>
+            </BoxContainer>
+          </FlexItem>
+        ))}
+      </FlexContainer>
+    </BoxContainer>
   );
 };
