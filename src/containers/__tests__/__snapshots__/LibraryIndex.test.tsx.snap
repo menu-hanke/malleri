@@ -18,26 +18,23 @@ exports[`snapshot should match 1`] = `
       <div
         className="sc-eCApnc byCaXk"
       >
-        <table>
-          <tr
+        Natural processes
+        <div
+          className="sc-fujyAs bcOgwI"
+        >
+          Description: 
+          The models predict tree stock development according to natural processes including tree growth,  natural loss, self thinning and birth
+          <br />
+          Models: 
+          4
+          <br />
+          <button
+            className="sc-pNWdM fxSlkI"
             onClick={[Function]}
           >
-            <td
-              style={
-                Object {
-                  "width": "20px",
-                }
-              }
-            >
-              <b>
-                +
-              </b>
-            </td>
-            <td>
-              Natural processes
-            </td>
-          </tr>
-        </table>
+            Show models...
+          </button>
+        </div>
       </div>
     </div>
     <div
@@ -46,26 +43,23 @@ exports[`snapshot should match 1`] = `
       <div
         className="sc-eCApnc byCaXk"
       >
-        <table>
-          <tr
+        Tree models
+        <div
+          className="sc-fujyAs bcOgwI"
+        >
+          Description: 
+          The model package for calculating characteristics of a single tree
+          <br />
+          Models: 
+          1
+          <br />
+          <button
+            className="sc-pNWdM fxSlkI"
             onClick={[Function]}
           >
-            <td
-              style={
-                Object {
-                  "width": "20px",
-                }
-              }
-            >
-              <b>
-                +
-              </b>
-            </td>
-            <td>
-              Tree models
-            </td>
-          </tr>
-        </table>
+            Show models...
+          </button>
+        </div>
       </div>
     </div>
     <div
@@ -74,26 +68,23 @@ exports[`snapshot should match 1`] = `
       <div
         className="sc-eCApnc byCaXk"
       >
-        <table>
-          <tr
+        Tree volume calculations
+        <div
+          className="sc-fujyAs bcOgwI"
+        >
+          Description: 
+          The model package contains models to calculate volume of a whole tree and its parts
+          <br />
+          Models: 
+          3
+          <br />
+          <button
+            className="sc-pNWdM fxSlkI"
             onClick={[Function]}
           >
-            <td
-              style={
-                Object {
-                  "width": "20px",
-                }
-              }
-            >
-              <b>
-                +
-              </b>
-            </td>
-            <td>
-              Tree volume calculations
-            </td>
-          </tr>
-        </table>
+            Show models...
+          </button>
+        </div>
       </div>
     </div>
     <div
@@ -102,26 +93,23 @@ exports[`snapshot should match 1`] = `
       <div
         className="sc-eCApnc byCaXk"
       >
-        <table>
-          <tr
+        Initial data conversion
+        <div
+          className="sc-fujyAs bcOgwI"
+        >
+          Description: 
+          Initial data conversion covers models for predicting stand data parameters to formulate calculation data
+          <br />
+          Models: 
+          1
+          <br />
+          <button
+            className="sc-pNWdM fxSlkI"
             onClick={[Function]}
           >
-            <td
-              style={
-                Object {
-                  "width": "20px",
-                }
-              }
-            >
-              <b>
-                +
-              </b>
-            </td>
-            <td>
-              Initial data conversion
-            </td>
-          </tr>
-        </table>
+            Show models...
+          </button>
+        </div>
       </div>
     </div>
     <div
@@ -130,26 +118,23 @@ exports[`snapshot should match 1`] = `
       <div
         className="sc-eCApnc byCaXk"
       >
-        <table>
-          <tr
+        Berry production
+        <div
+          className="sc-fujyAs bcOgwI"
+        >
+          Description: 
+          Models to predict berry production
+          <br />
+          Models: 
+          2
+          <br />
+          <button
+            className="sc-pNWdM fxSlkI"
             onClick={[Function]}
           >
-            <td
-              style={
-                Object {
-                  "width": "20px",
-                }
-              }
-            >
-              <b>
-                +
-              </b>
-            </td>
-            <td>
-              Berry production
-            </td>
-          </tr>
-        </table>
+            Show models...
+          </button>
+        </div>
       </div>
     </div>
   </div>

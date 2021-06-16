@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import {BoxContainer, FlexContainer, FlexItem} from '../Styled';
 import {ModelFunctionPackage} from '../../types';
-import Collapsible from '../components/Collapsible';
 import PackageDetail from './PackageDetail';
 import styled from 'styled-components';
 
@@ -47,7 +46,7 @@ export default (props: Props) => {
         onRequestClose={() => setItemInModal(placeholderPackageItem)}
         contentLabel="Mallifunktiopaketin sisältö"
       >
-        <PackageDetail modelPackage={itemInModal} />
+        <PackageDetail modelPackage={itemInModal}/>
       </Modal>
       <input
         type="text"
@@ -58,13 +57,12 @@ export default (props: Props) => {
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
           <FlexItem key={i}>
             <BoxContainer>
-              <Collapsible header={item.name}>
-                <PackageInfo>
-                  Description: {item.description}<br/>
-                  Models: {item.models.length}<br/>
-                  <DetailsButton onClick={() => setItemInModal(item)}>Show models...</DetailsButton>
-                </PackageInfo>
-              </Collapsible>
+              {item.name}
+              <PackageInfo>
+                Description: {item.description}<br/>
+                Models: {item.models.length}<br/>
+                <DetailsButton onClick={() => setItemInModal(item)}>Show models...</DetailsButton>
+              </PackageInfo>
             </BoxContainer>
           </FlexItem>
         ))}
