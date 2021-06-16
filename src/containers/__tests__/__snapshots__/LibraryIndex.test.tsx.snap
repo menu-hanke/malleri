@@ -4,6 +4,9 @@ exports[`snapshot should match 1`] = `
 <div
   className="sc-dlnjwi jsZyJl"
 >
+  <p>
+    Search tools
+  </p>
   <input
     onChange={[Function]}
     placeholder="Search packages..."
@@ -15,6 +18,7 @@ exports[`snapshot should match 1`] = `
     placeholder="Highlight models..."
     type="text"
   />
+  <hr />
   <div
     className="sc-bdnxRM geVaNS"
   >

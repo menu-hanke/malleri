@@ -53,6 +53,7 @@ export default (props: Props) => {
       >
         <PackageDetail modelPackage={itemInModal}/>
       </Modal>
+      <p>Search tools</p>
       <input
         type="text"
         placeholder="Search packages..."
@@ -64,6 +65,7 @@ export default (props: Props) => {
         placeholder="Highlight models..."
         onChange={(event) => setModelSearchInput(event.target.value)}
       />
+      <hr/>
       <FlexContainer>
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => {
           const emphasize = packageHasModelsMatchingToSearch(item);
