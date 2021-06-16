@@ -41,6 +41,7 @@ export const FlexContainer = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
+  align-content: space-around;
 `;
 
 export const FlexItem = styled.div`
@@ -51,6 +52,5 @@ export const FlexItem = styled.div`
 export const BoxContainer = styled.div`
   border: 1px solid black;
   padding: 0.2rem;
-  height: 90%;
   margin: 0.1rem;
 `;

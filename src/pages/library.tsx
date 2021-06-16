@@ -25,8 +25,8 @@ export default () => {
 
       <h3>Model function library</h3>
       <p>
-        Below is a list of all model function packages in the library.
-        By clicking the package name pops up additional information about the package and its content.
+        Below is a browsing tool for all model function packages in the library.
+        Choosing a package pops up additional information about the package and its content.
       </p>
       <LibraryIndex packages={routeData.packages}></LibraryIndex>
     </div>

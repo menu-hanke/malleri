@@ -2,7 +2,7 @@
 
 exports[`snapshot should match 1`] = `
 <div
-  className="sc-eCApnc byCaXk"
+  className="sc-dlnjwi fsSaU"
 >
   <input
     onChange={[Function]}
@@ -10,17 +10,18 @@ exports[`snapshot should match 1`] = `
     type="text"
   />
   <div
-    className="sc-dlnjwi gAXQeD"
+    className="sc-bdnxRM geVaNS"
   >
     <div
-      className="sc-hKFxyN iaQWze"
+      className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-eCApnc byCaXk"
+        className="sc-dlnjwi fsSaU"
+        onClick={[Function]}
       >
         Natural processes
         <div
-          className="sc-fujyAs bcOgwI"
+          className="sc-gKAaRy dxXGYN"
         >
           Description: 
           The models predict tree stock development according to natural processes including tree growth,  natural loss, self thinning and birth
@@ -28,24 +29,19 @@ exports[`snapshot should match 1`] = `
           Models: 
           4
           <br />
-          <button
-            className="sc-pNWdM fxSlkI"
-            onClick={[Function]}
-          >
-            Show models...
-          </button>
         </div>
       </div>
     </div>
     <div
-      className="sc-hKFxyN iaQWze"
+      className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-eCApnc byCaXk"
+        className="sc-dlnjwi fsSaU"
+        onClick={[Function]}
       >
         Tree models
         <div
-          className="sc-fujyAs bcOgwI"
+          className="sc-gKAaRy dxXGYN"
         >
           Description: 
           The model package for calculating characteristics of a single tree
@@ -53,24 +49,19 @@ exports[`snapshot should match 1`] = `
           Models: 
           1
           <br />
-          <button
-            className="sc-pNWdM fxSlkI"
-            onClick={[Function]}
-          >
-            Show models...
-          </button>
         </div>
       </div>
     </div>
     <div
-      className="sc-hKFxyN iaQWze"
+      className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-eCApnc byCaXk"
+        className="sc-dlnjwi fsSaU"
+        onClick={[Function]}
       >
         Tree volume calculations
         <div
-          className="sc-fujyAs bcOgwI"
+          className="sc-gKAaRy dxXGYN"
         >
           Description: 
           The model package contains models to calculate volume of a whole tree and its parts
@@ -78,24 +69,19 @@ exports[`snapshot should match 1`] = `
           Models: 
           3
           <br />
-          <button
-            className="sc-pNWdM fxSlkI"
-            onClick={[Function]}
-          >
-            Show models...
-          </button>
         </div>
       </div>
     </div>
     <div
-      className="sc-hKFxyN iaQWze"
+      className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-eCApnc byCaXk"
+        className="sc-dlnjwi fsSaU"
+        onClick={[Function]}
       >
         Initial data conversion
         <div
-          className="sc-fujyAs bcOgwI"
+          className="sc-gKAaRy dxXGYN"
         >
           Description: 
           Initial data conversion covers models for predicting stand data parameters to formulate calculation data
@@ -103,24 +89,19 @@ exports[`snapshot should match 1`] = `
           Models: 
           1
           <br />
-          <button
-            className="sc-pNWdM fxSlkI"
-            onClick={[Function]}
-          >
-            Show models...
-          </button>
         </div>
       </div>
     </div>
     <div
-      className="sc-hKFxyN iaQWze"
+      className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-eCApnc byCaXk"
+        className="sc-dlnjwi fsSaU"
+        onClick={[Function]}
       >
         Berry production
         <div
-          className="sc-fujyAs bcOgwI"
+          className="sc-gKAaRy dxXGYN"
         >
           Description: 
           Models to predict berry production
@@ -128,12 +109,6 @@ exports[`snapshot should match 1`] = `
           Models: 
           2
           <br />
-          <button
-            className="sc-pNWdM fxSlkI"
-            onClick={[Function]}
-          >
-            Show models...
-          </button>
         </div>
       </div>
     </div>

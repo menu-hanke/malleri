@@ -21,11 +21,6 @@ const PackageInfo = styled.div`
   font-size: 0.8rem;
 `;
 
-const DetailsButton = styled.button`
-
-  border: 1px solid black;
-`;
-
 export default (props: Props) => {
 
   const [titleFilterInput, setTitleFilterInput] = useState('');
@@ -56,12 +51,11 @@ export default (props: Props) => {
       <FlexContainer>
         {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
           <FlexItem key={i}>
-            <BoxContainer>
+            <BoxContainer onClick={() => setItemInModal(item)}>
               {item.name}
               <PackageInfo>
                 Description: {item.description}<br/>
                 Models: {item.models.length}<br/>
-                <DetailsButton onClick={() => setItemInModal(item)}>Show models...</DetailsButton>
               </PackageInfo>
             </BoxContainer>
           </FlexItem>
