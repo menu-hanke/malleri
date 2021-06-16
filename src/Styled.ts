@@ -53,4 +53,7 @@ export const BoxContainer = styled.div`
   border: 1px solid black;
   padding: 0.2rem;
   margin: 0.1rem;
+  ${(props) => {
+    return props.emphasize ? 'font-weight: bold' : '';
+  }}
 `;
