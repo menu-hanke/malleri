@@ -44,3 +44,20 @@ export const LibraryTable = styled.table`
 export const LibraryTableCell = styled.td`
   padding: 8px;
 `;
+
+export const FlexContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
+
+export const FlexItem = styled.div`
+  flex: none;
+  margin: 5px;
+  width: 250px;
+`;
+
+export const BoxContainer = styled.div`
+  border: 1px solid black;
+  margin-bottom: 5px;
+`;
