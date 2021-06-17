@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const LogoContainer = styled.div`
@@ -15,10 +15,9 @@ const LogoContainer = styled.div`
 `;
 
 export default () => {
-    return (
-        <LogoContainer>
-            <img src="images/menu-logo.svg" alt="Menu-logo"></img>
-        </LogoContainer>
-      );
-  };
-  
+  return (
+    <LogoContainer>
+      <img src="images/menu-logo.svg" alt="Menu-logo"></img>
+    </LogoContainer>
+  );
+};
