@@ -1,4 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const ImageContainer = styled.div`
+  text-align: center;
+  display: block;
+  @media screen and (min-width: 600px) {
+    width: 80%;
+  }
+  @media screen and (min-width: 1000px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 1500px) {
+    width: 40%;
+  }
+`;
 
 export default () => (
   <div>
@@ -20,7 +35,9 @@ export default () => (
       The distribution includes the MELA2SIM simulator implementation along with all the necessary modelfuntions, initial data conversion tool, optimization tool and the simulator platform executable.
       From the image under one may see the design of Mela2.0 software and all its key components.
     </p>
-    <img src="images/mela2.0-software-crosscut.png"/>
+    <ImageContainer>
+      <img src="images/mela2.0-software-crosscut.png"/>
+    </ImageContainer>
     <ul>
       <li>
         <a>Donwload link for Windows</a>
