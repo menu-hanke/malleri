@@ -18,6 +18,10 @@ exports[`snapshot should match 1`] = `
       <p>
         Predicts height growth of individual tree for the next 5 years period
       </p>
+      <p>
+        Language: 
+        Lua
+      </p>
       Developed by:
       <ul>
         <li>
@@ -184,6 +188,10 @@ exports[`snapshot should match 1`] = `
       <p>
         Predicts diameter growth of individual tree for the next 5 years period
       </p>
+      <p>
+        Language: 
+        Lua
+      </p>
       Developed by:
       <ul>
         <li>
@@ -348,6 +356,10 @@ exports[`snapshot should match 1`] = `
       <p>
         Growth rate parameter for diameter growth model ID_DGM_1
       </p>
+      <p>
+        Language: 
+        Lua
+      </p>
       Developed by:
       <ul>
         <li>
@@ -505,6 +517,10 @@ exports[`snapshot should match 1`] = `
       </h4>
       <p>
         Predicts stump diameter
+      </p>
+      <p>
+        Language: 
+        Lua
       </p>
       Developed by:
       <ul>
