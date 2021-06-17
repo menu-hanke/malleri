@@ -31,6 +31,9 @@ export default () => (
       <li>
         <a>Reference link to Docker registry</a>
       </li>
+      <li>
+        <a href="./404">Documentation of Mela2.0 software</a>
+      </li>
     </ul>
 
     <h3>Initial data conversion</h3>
@@ -51,6 +54,9 @@ export default () => (
         <a href="https://github.com/menu-hanke/m2">
           Source code of the initial data conversion tool</a>
       </li>
+      <li>
+        <a href="./404">Documentation of conversion tool</a>
+      </li>
     </ul>
 
     <h3>
@@ -62,6 +68,7 @@ export default () => (
     </p>
     <ul>
       <li><a href="https://github.com/menu-hanke/LAME">MELA2SIM simulator</a></li>
+      <li><a href="./404">Documentation of MELA2SIM</a></li>
     </ul>
 
     <h3>Simulator platform</h3>
@@ -81,6 +88,9 @@ export default () => (
       <li>
         <a href="https://github.com/menu-hanke/m2">
           Source code of the simulator platform</a>
+      </li>
+      <li>
+        <a href="./404">Documentation of the simulator platform</a>
       </li>
     </ul>
 
@@ -103,6 +113,9 @@ export default () => (
         <a href="https://github.com/menu-hanke/m2">
           Source code for the J software</a>
       </li>
+      <li>
+        <a href="./404">Documentation of J software</a>
+      </li>
     </ul>
 
     <h3>Report generator</h3>
@@ -122,6 +135,9 @@ export default () => (
       <li>
         <a href="./404">
           Source code for the report generator</a>
+      </li>
+      <li>
+        <a href="./404">Documentation of Report generator</a>
       </li>
     </ul>
   </div>
