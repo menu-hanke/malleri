@@ -21,6 +21,12 @@ const PackageInfo = styled.div`
   font-size: 0.8rem;
 `;
 
+const InteractableHighlight = styled.div`
+  &:hover {
+    background: #eee;
+  }
+`;
+
 export default (props: Props) => {
 
   const [packageSearchInput, setPackageSearchInput] = useState('');
@@ -74,13 +80,15 @@ export default (props: Props) => {
           const emphasize = packageHasModelsMatchingToSearch(item);
           return (
             <FlexItem key={i}>
-              <BoxContainer onClick={() => setItemInModal(item)} emphasize={emphasize}>
-                {item.name}
-                <PackageInfo>
-                  Description: {item.description}<br/>
-                  Models: {item.models.length}<br/>
-                </PackageInfo>
-              </BoxContainer>
+              <InteractableHighlight>
+                <BoxContainer onClick={() => setItemInModal(item)} emphasize={emphasize}>
+                  {item.name}
+                  <PackageInfo>
+                    Description: {item.description}<br/>
+                    Models: {item.models.length}<br/>
+                  </PackageInfo>
+                </BoxContainer>
+              </InteractableHighlight>
             </FlexItem>
           );
         })}

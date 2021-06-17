@@ -33,19 +33,23 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi jsZyJl"
-        onClick={[Function]}
+        className="sc-iCoGMd eXlpkO"
       >
-        Natural processes
         <div
-          className="sc-gKAaRy dxXGYN"
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          Description: 
-          The models predict tree stock development according to natural processes including tree growth,  natural loss, self thinning and birth
-          <br />
-          Models: 
-          4
-          <br />
+          Natural processes
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            The models predict tree stock development according to natural processes including tree growth,  natural loss, self thinning and birth
+            <br />
+            Models: 
+            4
+            <br />
+          </div>
         </div>
       </div>
     </div>
@@ -53,19 +57,23 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi jsZyJl"
-        onClick={[Function]}
+        className="sc-iCoGMd eXlpkO"
       >
-        Tree models
         <div
-          className="sc-gKAaRy dxXGYN"
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          Description: 
-          The model package for calculating characteristics of a single tree
-          <br />
-          Models: 
-          1
-          <br />
+          Tree models
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            The model package for calculating characteristics of a single tree
+            <br />
+            Models: 
+            1
+            <br />
+          </div>
         </div>
       </div>
     </div>
@@ -73,19 +81,23 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi jsZyJl"
-        onClick={[Function]}
+        className="sc-iCoGMd eXlpkO"
       >
-        Tree volume calculations
         <div
-          className="sc-gKAaRy dxXGYN"
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          Description: 
-          The model package contains models to calculate volume of a whole tree and its parts
-          <br />
-          Models: 
-          3
-          <br />
+          Tree volume calculations
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            The model package contains models to calculate volume of a whole tree and its parts
+            <br />
+            Models: 
+            3
+            <br />
+          </div>
         </div>
       </div>
     </div>
@@ -93,19 +105,23 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi jsZyJl"
-        onClick={[Function]}
+        className="sc-iCoGMd eXlpkO"
       >
-        Initial data conversion
         <div
-          className="sc-gKAaRy dxXGYN"
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          Description: 
-          Initial data conversion covers models for predicting stand data parameters to formulate calculation data
-          <br />
-          Models: 
-          1
-          <br />
+          Initial data conversion
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            Initial data conversion covers models for predicting stand data parameters to formulate calculation data
+            <br />
+            Models: 
+            1
+            <br />
+          </div>
         </div>
       </div>
     </div>
@@ -113,19 +129,23 @@ exports[`snapshot should match 1`] = `
       className="sc-gtsrHT iCuVym"
     >
       <div
-        className="sc-dlnjwi jsZyJl"
-        onClick={[Function]}
+        className="sc-iCoGMd eXlpkO"
       >
-        Berry production
         <div
-          className="sc-gKAaRy dxXGYN"
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          Description: 
-          Models to predict berry production
-          <br />
-          Models: 
-          2
-          <br />
+          Berry production
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            Models to predict berry production
+            <br />
+            Models: 
+            2
+            <br />
+          </div>
         </div>
       </div>
     </div>
