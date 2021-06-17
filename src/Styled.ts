@@ -2,8 +2,7 @@ import styled, {createGlobalStyle} from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-    'Lucida Grande', sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0;
@@ -12,8 +11,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #108db8;
+  color: #78be20;
   font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Titillium Web', sans-serif;
 }
 
 img {
@@ -22,7 +25,7 @@ img {
 
 nav {
   width: 100%;
-  background: #108db8;
+  background: #78be20;
 }
 
 nav a {
