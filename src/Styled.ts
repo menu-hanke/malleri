@@ -39,11 +39,24 @@ nav a {
 }
 `;
 
-export const LibraryTable = styled.table`
-  padding: 1rem;
-  width: 40%;
+export const FlexContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
 `;
 
-export const LibraryTableCell = styled.td`
-  padding: 8px;
+export const FlexItem = styled.div`
+  flex: none;
+  width: 25rem;
+`;
+
+export const BoxContainer = styled.div`
+  border: 1px solid black;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  ${(props) => {
+    return props.emphasize ? 'font-weight: bold' : '';
+  }}
 `;

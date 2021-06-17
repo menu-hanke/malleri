@@ -10,7 +10,7 @@ exports[`snapshot should match 1`] = `
   </p>
   <ul>
     <div
-      className="sc-hKFxyN ilCskO"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Height growth model
@@ -29,10 +29,10 @@ exports[`snapshot should match 1`] = `
         </li>
       </ul>
       <div
-        className="sc-eCApnc isRVJb"
+        className="sc-hKFxyN gCPwdH"
       >
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function inputs:
           <table
@@ -99,7 +99,7 @@ exports[`snapshot should match 1`] = `
           </table>
         </div>
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function outputs:
           <table
@@ -180,7 +180,7 @@ exports[`snapshot should match 1`] = `
       </p>
     </div>
     <div
-      className="sc-hKFxyN ilCskO"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Diameter growth model
@@ -199,10 +199,10 @@ exports[`snapshot should match 1`] = `
         </li>
       </ul>
       <div
-        className="sc-eCApnc isRVJb"
+        className="sc-hKFxyN gCPwdH"
       >
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function inputs:
           <table
@@ -281,7 +281,7 @@ exports[`snapshot should match 1`] = `
           </table>
         </div>
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function outputs:
           <table
@@ -348,7 +348,7 @@ exports[`snapshot should match 1`] = `
       </p>
     </div>
     <div
-      className="sc-hKFxyN ilCskO"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Growth rate parameter
@@ -367,10 +367,10 @@ exports[`snapshot should match 1`] = `
         </li>
       </ul>
       <div
-        className="sc-eCApnc isRVJb"
+        className="sc-hKFxyN gCPwdH"
       >
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function inputs:
           <table
@@ -445,7 +445,7 @@ exports[`snapshot should match 1`] = `
           </table>
         </div>
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function outputs:
           <table
@@ -510,7 +510,7 @@ exports[`snapshot should match 1`] = `
       </p>
     </div>
     <div
-      className="sc-hKFxyN ilCskO"
+      className="sc-jSFjdj kRmIpc"
     >
       <h4>
         Stump diameter model
@@ -529,10 +529,10 @@ exports[`snapshot should match 1`] = `
         </li>
       </ul>
       <div
-        className="sc-eCApnc isRVJb"
+        className="sc-hKFxyN gCPwdH"
       >
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function inputs:
           <table
@@ -571,7 +571,7 @@ exports[`snapshot should match 1`] = `
           </table>
         </div>
         <div
-          className="sc-jSFjdj iVWeut"
+          className="sc-eCApnc hQIveO"
         >
           Model function outputs:
           <table

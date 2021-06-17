@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import Modal from 'react-modal';
-import {LibraryTable, LibraryTableCell} from '../Styled';
-import {ModelFunctionPackage} from '../../types';
-import Collapsible from '../components/Collapsible';
+import {BoxContainer, FlexContainer, FlexItem} from '../Styled';
+import {ModelFunction, ModelFunctionPackage} from '../../types';
 import PackageDetail from './PackageDetail';
 import styled from 'styled-components';
 
@@ -22,55 +21,78 @@ const PackageInfo = styled.div`
   font-size: 0.8rem;
 `;
 
-const DetailsButton = styled.button`
-
-  border: 1px solid black;
+const InteractableHighlight = styled.div`
+  &:hover {
+    background: #eee;
+  }
 `;
 
 export default (props: Props) => {
 
-  const [titleFilterInput, setTitleFilterInput] = useState('');
+  const [packageSearchInput, setPackageSearchInput] = useState('');
+  const [modelSearchInput, setModelSearchInput] = useState('');
   const [itemInModal, setItemInModal]: [ModelFunctionPackage, Function] = useState(placeholderPackageItem);
 
   const totalFilter = (item: ModelFunctionPackage) => {
-    return item.name.includes(titleFilterInput);
+    return item.name.includes(packageSearchInput) || item.description.includes(packageSearchInput);
+  };
+
+  const modelHasMatchingData = (model: ModelFunction): boolean => {
+    if (modelSearchInput === '' || modelSearchInput.length < 2) return false;
+    return model.name.includes(modelSearchInput) || model.description.includes(modelSearchInput);
+  };
+
+  const packageHasModelsMatchingToSearch = (item: ModelFunctionPackage) => {
+    return item.models.map(modelHasMatchingData).includes(true);
   };
 
   const applyPackagesFiltering = (packages: ModelFunctionPackage[]) => {
     return packages.filter(totalFilter);
   };
 
+  const displayedPackages = applyPackagesFiltering(props.packages);
+
   return (
-    <div>
+    <BoxContainer>
       <Modal
         isOpen={itemInModal != placeholderPackageItem}
         onRequestClose={() => setItemInModal(placeholderPackageItem)}
         contentLabel="Mallifunktiopaketin sisältö"
       >
-        <PackageDetail modelPackage={itemInModal} />
+        <PackageDetail modelPackage={itemInModal}/>
       </Modal>
+      <p>Search tools</p>
       <input
         type="text"
-        placeholder="Filter by title..."
-        onChange={(event) => setTitleFilterInput(event.target.value)}
+        placeholder="Search packages..."
+        onChange={(event) => setPackageSearchInput(event.target.value)}
       />
-      <LibraryTable>
-        <tbody>
-          {applyPackagesFiltering(props.packages).map((item: ModelFunctionPackage, i: number) => (
-            <tr key={i}>
-              <LibraryTableCell>
-                <Collapsible header={item.name}>
+      <br/>
+      <input
+        type="text"
+        placeholder="Highlight models..."
+        onChange={(event) => setModelSearchInput(event.target.value)}
+      />
+      <hr/>
+      <p>Showing {displayedPackages.length} out of {props.packages.length} packages.</p>
+      <FlexContainer>
+        {displayedPackages.map((item: ModelFunctionPackage, i: number) => {
+          const emphasize = packageHasModelsMatchingToSearch(item);
+          return (
+            <FlexItem key={i}>
+              <InteractableHighlight>
+                <BoxContainer onClick={() => setItemInModal(item)} emphasize={emphasize}>
+                  {item.name}
                   <PackageInfo>
                     Description: {item.description}<br/>
                     Models: {item.models.length}<br/>
-                    <DetailsButton onClick={() => setItemInModal(item)}>Show models...</DetailsButton>
                   </PackageInfo>
-                </Collapsible>
-              </LibraryTableCell>
-            </tr>
-          ))}
-        </tbody>
-      </LibraryTable>
-    </div>
+                </BoxContainer>
+              </InteractableHighlight>
+            </FlexItem>
+          );
+        })}
+      </FlexContainer>
+    </BoxContainer>
   );
 };

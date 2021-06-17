@@ -1,147 +1,154 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`snapshot should match 1`] = `
-<div>
+<div
+  className="sc-dlnjwi jsZyJl"
+>
+  <p>
+    Search tools
+  </p>
   <input
     onChange={[Function]}
-    placeholder="Filter by title..."
+    placeholder="Search packages..."
     type="text"
   />
-  <table
-    className="sc-bdnxRM hdzVvY"
+  <br />
+  <input
+    onChange={[Function]}
+    placeholder="Highlight models..."
+    type="text"
+  />
+  <hr />
+  <p>
+    Showing 
+    5
+     out of 
+    5
+     packages.
+  </p>
+  <div
+    className="sc-bdnxRM geVaNS"
   >
-    <tbody>
-      <tr>
-        <td
-          className="sc-gtsrHT gBukoy"
+    <div
+      className="sc-gtsrHT iCuVym"
+    >
+      <div
+        className="sc-iCoGMd eXlpkO"
+      >
+        <div
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          <table>
-            <tr
-              onClick={[Function]}
-            >
-              <td
-                style={
-                  Object {
-                    "width": "20px",
-                  }
-                }
-              >
-                <b>
-                  +
-                </b>
-              </td>
-              <td>
-                Natural processes
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td
-          className="sc-gtsrHT gBukoy"
+          Natural processes
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            The models predict tree stock development according to natural processes including tree growth,  natural loss, self thinning and birth
+            <br />
+            Models: 
+            4
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gtsrHT iCuVym"
+    >
+      <div
+        className="sc-iCoGMd eXlpkO"
+      >
+        <div
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          <table>
-            <tr
-              onClick={[Function]}
-            >
-              <td
-                style={
-                  Object {
-                    "width": "20px",
-                  }
-                }
-              >
-                <b>
-                  +
-                </b>
-              </td>
-              <td>
-                Tree models
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td
-          className="sc-gtsrHT gBukoy"
+          Tree models
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            The model package for calculating characteristics of a single tree
+            <br />
+            Models: 
+            1
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gtsrHT iCuVym"
+    >
+      <div
+        className="sc-iCoGMd eXlpkO"
+      >
+        <div
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          <table>
-            <tr
-              onClick={[Function]}
-            >
-              <td
-                style={
-                  Object {
-                    "width": "20px",
-                  }
-                }
-              >
-                <b>
-                  +
-                </b>
-              </td>
-              <td>
-                Tree volume calculations
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td
-          className="sc-gtsrHT gBukoy"
+          Tree volume calculations
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            The model package contains models to calculate volume of a whole tree and its parts
+            <br />
+            Models: 
+            3
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gtsrHT iCuVym"
+    >
+      <div
+        className="sc-iCoGMd eXlpkO"
+      >
+        <div
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          <table>
-            <tr
-              onClick={[Function]}
-            >
-              <td
-                style={
-                  Object {
-                    "width": "20px",
-                  }
-                }
-              >
-                <b>
-                  +
-                </b>
-              </td>
-              <td>
-                Initial data conversion
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td
-          className="sc-gtsrHT gBukoy"
+          Initial data conversion
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            Initial data conversion covers models for predicting stand data parameters to formulate calculation data
+            <br />
+            Models: 
+            1
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gtsrHT iCuVym"
+    >
+      <div
+        className="sc-iCoGMd eXlpkO"
+      >
+        <div
+          className="sc-dlnjwi jsZyJl"
+          onClick={[Function]}
         >
-          <table>
-            <tr
-              onClick={[Function]}
-            >
-              <td
-                style={
-                  Object {
-                    "width": "20px",
-                  }
-                }
-              >
-                <b>
-                  +
-                </b>
-              </td>
-              <td>
-                Berry production
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+          Berry production
+          <div
+            className="sc-gKAaRy dxXGYN"
+          >
+            Description: 
+            Models to predict berry production
+            <br />
+            Models: 
+            2
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
